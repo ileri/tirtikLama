@@ -1,10 +1,21 @@
 # tırtıkLama
 
-Türkçe metinlerde kelime tekrar sayılarından yola çıkarak ve makine
-öğrenimi yöntemlerini kullanarak metinler arası benzerlik oranını bulan
-ve olası kopya ve intihalleri tespit etmeyi amaçlayan bir araçtır.
+Bu metin aracı test etmek için oluşturulmuştur.
 
-## Neden tırtıkLama? 
+README.md dosyası ile karşılaştırılacak olup benzerlik oranı testinde
+karşılaştırılacaktır.
+
+Elde edilen sonuçlara bakılarak, iki metnin benzerlik oranı da belirlenen
+sonuçlarla kıyaslanarak sistemin başarısı hesaplanılmaya çalışılacaktır.
+
+Bu metinde sadece baş kısım değişik olacağından, iki metin arasunda büyük
+oranda benzerlik çıkacaktır.
+
+Bu sadece ilk deneme için oluşturulmuş bir metin olup, ilerileyen süreçlerde
+yapılacak olan denemeler ayrı bir dizin içerisindeki metinler üzerinden
+yapılacaktır.
+
+## Neden tırtıkLama?
 
 **Tırtıklamak**, bir nesnede bulunan [çentik][1] veya aşınmadan meydana gelen
 ve genellikle dokunarak da hissedilebilen **tırtık** kelimesinden
