@@ -21,8 +21,8 @@ public class CosineSimilarity {
             Map.Entry e = (Map.Entry)i1.next();
             Double val1 = getDoubleVal(e);
             
-            Double val2 = getDoubleVal(data2.get(e.getKey()));
-            System.out.println("key: " + e.getKey() + "\tval1: " + val1 + "\tval2: " + val2);
+            Double val2 = data2.getOrDefault(e.getKey(), 0.0);
+            System.out.printf("key: %20s\tval1: %2.15f\tval2: %2.15f\n", e.getKey(), (double)val1, (double)val2);
             similarity += (val1 * val2);
         }
         //if(similarity > 1) return 1; // round 1.000000007 like values
@@ -32,8 +32,5 @@ public class CosineSimilarity {
     private double getDoubleVal(Map.Entry o){
         return (Double)o.getValue() == null ? 0 : (Double)o.getValue();
     }
-    
-    private double getDoubleVal(Double d){
-        return d == null ? 0 : d;
-    }
+
 }
