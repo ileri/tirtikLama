@@ -12,8 +12,8 @@ import zemberek.morphology.analysis.SentenceAnalysis;
 import zemberek.morphology.analysis.SingleAnalysis;
 
 public class TextAnalyzer {
-    String content = null;
-    TurkishMorphology tm = TurkishMorphology.createWithDefaults();
+    private String content = null;
+    private TurkishMorphology tm = TurkishMorphology.createWithDefaults();
     
     public TextAnalyzer(String filePath) throws FileNotFoundException, IOException{
         content = new String(Files.readAllBytes(Paths.get(filePath)));
