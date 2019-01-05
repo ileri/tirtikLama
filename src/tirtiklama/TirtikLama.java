@@ -1,37 +1,26 @@
 package tirtiklama;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 
 public class TirtikLama {
+    static FeatureExtraction fe = new FeatureExtraction();
+    static ARFF arff = new ARFF(fe);
+    
     public static void main(String[] args) throws IOException {
-        TextAnalyzer textAnalyzer1 = new TextAnalyzer("README.md");
-        TextAnalyzer textAnalyzer2 = new TextAnalyzer("notREADME.md");
+        HashMap[] tr = trainARFF();
+        HashMap[] ts = testARFF();
         
-        HashMap<String, Integer> results1 = textAnalyzer1.getLemmas();
-        HashMap<String, Integer> results2 = textAnalyzer2.getLemmas();
-        
-        HashMap<String, Double> n1  = new L2(results1).normalize();
-        HashMap<String, Double> n2  = new L2(results2).normalize();
-        
-        FeatureExtraction fe = new FeatureExtraction();
-        fe.add(n1);
-        fe.add(n2);
-        
-        ARFF arff = new ARFF(fe);
-        HashMap[] trainSet = new HashMap[2];
-        trainSet[0] = n1;
-        trainSet[1] = n2;
-        arff.addTrainSet(trainSet);
-        arff.saveTrainARFF("deneme.arff");
-        
-        HashMap[] testSet = new HashMap[1];
-        testSet[0] = n1;
-        arff.addTestSet(testSet);
-        arff.saveTestARFF("denemeT.arff");
-        
+        for(int i = 0; i < ts.length; i++){
+            for(int j = 0; j < tr.length; j++){
+                CosineSimilarity cs1 = new CosineSimilarity(tr[j], ts[i]);
+                System.out.println(i + " and " + j + " similarity: %"  + cs1.similarity()*100);
+            }
+        }
+        /*
         double[] fe1 = fe.extractFeatures(n1);
         double[] fe2 = fe.extractFeatures(n2);
         
@@ -41,12 +30,49 @@ public class TirtikLama {
         CosineSimilarity cs1 = new CosineSimilarity(n1, n2);
         Iterator iterator =  n1.entrySet().iterator();
         
-        /*while(iterator.hasNext()){
+        while(iterator.hasNext()){
             System.out.println(iterator.next());
-        }*/
+        }
         
         System.out.println("similarity: %"  + cs1.similarity()*100);
+        
+        */
 
+    }
+    
+    public static HashMap[] trainARFF() throws IOException{
+        File folder = new File("dataset/train");
+        File[] listOfFiles = folder.listFiles();
+        
+        HashMap[] trainSet = new HashMap[listOfFiles.length];
+        
+        for (int i = 0; i < listOfFiles.length; i++) {
+            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
+            fe.add(n);
+            trainSet[i] = n;
+        }
+
+        arff.addTrainSet(trainSet);
+        arff.saveTrainARFF("dataset/outputs/train.arff");
+        
+        return trainSet;
+    }
+        
+    public static HashMap[] testARFF() throws IOException{
+        File folder = new File("dataset/test");
+        File[] listOfFiles = folder.listFiles();
+        
+        HashMap[] testSet = new HashMap[listOfFiles.length];
+        
+        for (int i = 0; i < listOfFiles.length; i++) {
+            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
+            testSet[i] = n;
+        }
+
+        arff.addTestSet(testSet);
+        arff.saveTestARFF("dataset/outputs/test.arff");
+        
+        return testSet;
     }
     
     

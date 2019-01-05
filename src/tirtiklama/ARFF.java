@@ -33,7 +33,7 @@ public class ARFF {
         for(int i = 0; i < words.length; i++){
             contents[lineCounter++] = "@ATTRIBUTE " + words[i] + " NUMERIC";
         }
-        contents[lineCounter++] = "@ATTRIBUTE class NUMERIC";
+        contents[lineCounter++] = "@ATTRIBUTE class " + classAttribute();
         
         contents[lineCounter++] = "@DATA";
         
@@ -54,7 +54,7 @@ public class ARFF {
         for(int i = 0; i < words.length; i++){
             contents[lineCounter++] = "@ATTRIBUTE " + words[i] + " NUMERIC";
         }
-        contents[lineCounter++] = "@ATTRIBUTE class NUMERIC";
+        contents[lineCounter++] = "@ATTRIBUTE class " + classAttribute();
         
         contents[lineCounter++] = "@DATA";
         
@@ -90,5 +90,16 @@ public class ARFF {
         }
         outputWriter.flush();
         outputWriter.close();
+    }
+    
+    private String classAttribute(){
+        int[] classes = new int[trainSet.length];
+        
+        for(int i = 0; i < trainSet.length; i++){
+            classes[i] = i;
+        }
+        
+        return "{" + Arrays.stream(classes).mapToObj(String::valueOf)
+        .collect(Collectors.joining(", ")) + "}";
     }
 }
