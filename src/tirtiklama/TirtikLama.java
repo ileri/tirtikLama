@@ -12,7 +12,17 @@ public class TirtikLama {
     
     public static void main(String[] args) throws IOException {
         HashMap[] tr = trainARFF();
+        double[][] ef = fe.extractFeatures(tr);
+        KNN knn = new KNN(ef, 5);
         HashMap[] ts = testARFF();
+        double[][] res = knn.classify(fe.extractFeatures(ts[0]));
+        
+        for(double[] r : res){
+            for(double d : r){
+                System.out.printf("%f ", d);
+            }
+            System.out.println("");
+        }
         
         for(int i = 0; i < ts.length; i++){
             for(int j = 0; j < tr.length; j++){

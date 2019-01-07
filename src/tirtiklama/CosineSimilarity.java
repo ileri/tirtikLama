@@ -8,6 +8,14 @@ public class CosineSimilarity {
     HashMap<String, Double> data1 = null;
     HashMap<String, Double> data2 = null;
     
+    public static double similarity(double[] p1, double[] p2){
+        double similarity = 0.0;
+        for(int i = 0; i < p1.length; i++){
+            similarity += (p1[i] * p2[i]);
+        }
+        return similarity;
+    }
+    
     public CosineSimilarity(HashMap<String, Double> d1, HashMap<String, Double> d2){
         data1 = d1;
         data2 = d2;
