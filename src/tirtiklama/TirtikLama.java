@@ -4,56 +4,82 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Map;
 
 public class TirtikLama {
     static FeatureExtraction fe = new FeatureExtraction();
     static ARFF arff = new ARFF(fe);
     
     public static void main(String[] args) throws IOException {
-        HashMap[] tr = trainARFF();
-        double[][] ef = fe.extractFeatures(tr);
+        String trainDataSetPath = "dataset/train";
+        String testDataSetPath  = "dataset/test";
+        
+        HashMap<String, HashMap> tr = train(trainDataSetPath);
+        HashMap<String, double[]> ef = fe.extractFeatures(tr);
+        
         KNN knn = new KNN(ef, 5);
-        HashMap[] ts = testARFF();
-        double[][] res = knn.classify(fe.extractFeatures(ts[0]));
+        HashMap<String, HashMap> ts = test(testDataSetPath);
+        Iterator testIterator = ts.entrySet().iterator();
         
-        for(double[] r : res){
-            for(double d : r){
-                System.out.printf("%f ", d);
-            }
-            System.out.println("");
-        }
-        
-        for(int i = 0; i < ts.length; i++){
-            for(int j = 0; j < tr.length; j++){
-                CosineSimilarity cs1 = new CosineSimilarity(tr[j], ts[i]);
-                System.out.println(i + " and " + j + " similarity: %"  + cs1.similarity()*100);
+        while(testIterator.hasNext()){
+            Map.Entry t = (Map.Entry)testIterator.next();
+            Object[][] res = knn.classify(fe.extractTextFeatures((HashMap)t.getValue()));
+            for(Object[] r : res){
+                System.out.printf("Distance between %s and %s is: %f\n", (String)t.getKey(), r[0], r[1]);
             }
         }
-        /*
-        double[] fe1 = fe.extractFeatures(n1);
-        double[] fe2 = fe.extractFeatures(n2);
-        
-        System.out.println("Size: " + fe1.length + " - " + Arrays.toString(fe1));
-        System.out.println("Size: " + fe2.length + " - " + Arrays.toString(fe2));
+        System.out.println("");
 
-        CosineSimilarity cs1 = new CosineSimilarity(n1, n2);
-        Iterator iterator =  n1.entrySet().iterator();
-        
-        while(iterator.hasNext()){
-            System.out.println(iterator.next());
+        Iterator similarityTrainIterator = tr.entrySet().iterator();
+        Iterator similarityTestIterator  = ts.entrySet().iterator();
+
+        while(similarityTestIterator.hasNext()){
+            Map.Entry tmp_test = (Map.Entry)similarityTestIterator.next();
+            while(similarityTrainIterator.hasNext()){
+                Map.Entry tmp_train = (Map.Entry)similarityTrainIterator.next();
+                HashMap tts = (HashMap)tmp_test.getValue();
+                HashMap ttr = (HashMap)tmp_train.getValue();
+                CosineSimilarity cs1 = new CosineSimilarity(ttr, tts);
+                System.out.printf("Similarity between %s and %s is: %f\n", (String)tmp_test.getKey(), (String)tmp_train.getKey(), cs1.similarity()*100);
+            }
         }
-        
-        System.out.println("similarity: %"  + cs1.similarity()*100);
-        
-        */
-
     }
     
-    public static HashMap[] trainARFF() throws IOException{
-        File folder = new File("dataset/train");
+    private static HashMap train(String trainDataSetPath) throws IOException{
+        File folder = new File(trainDataSetPath);
         File[] listOfFiles = folder.listFiles();
+        HashMap<String, HashMap> trainSet = new HashMap<String, HashMap>(); 
+        //HashMap[] trainSet = new HashMap[listOfFiles.length];
         
+        for (int i = 0; i < listOfFiles.length; i++) {
+            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
+            fe.add(n);
+            trainSet.put(listOfFiles[i].getName(), n);
+        }
+        
+        return trainSet;
+    }
+    
+    private static HashMap test(String testDataSetPath) throws IOException{
+        File folder = new File(testDataSetPath);
+        File[] listOfFiles = folder.listFiles();
+        HashMap<String, HashMap> testSet = new HashMap<String, HashMap>(); 
+        //HashMap[] trainSet = new HashMap[listOfFiles.length];
+        
+        for (int i = 0; i < listOfFiles.length; i++) {
+            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
+            testSet.put(listOfFiles[i].getName(), n);
+        }
+        
+        return testSet;
+    }
+    
+    /*
+    public static HashMap[] trainARFF(String trainDataSetPath) throws IOException{
+        File folder = new File(trainDataSetPath);
+        File[] listOfFiles = folder.listFiles();
         HashMap[] trainSet = new HashMap[listOfFiles.length];
         
         for (int i = 0; i < listOfFiles.length; i++) {
@@ -68,8 +94,8 @@ public class TirtikLama {
         return trainSet;
     }
         
-    public static HashMap[] testARFF() throws IOException{
-        File folder = new File("dataset/test");
+    public static HashMap[] testARFF(String testDataSetPath) throws IOException{
+        File folder = new File(testDataSetPath);
         File[] listOfFiles = folder.listFiles();
         
         HashMap[] testSet = new HashMap[listOfFiles.length];
@@ -84,6 +110,6 @@ public class TirtikLama {
         
         return testSet;
     }
-    
+    */
     
 }

@@ -33,7 +33,7 @@ public class FeatureExtraction {
         }
     }
     
-    public double[] extractFeatures(HashMap<String, Double> h){
+    public double[] extractTextFeatures(HashMap<String, Double> h){
         add(h);
         double[] features = new double[words.size()];
         
@@ -51,7 +51,19 @@ public class FeatureExtraction {
         
         int count = 0;
         for(HashMap<String, Double> h :hm){
-            features[count++] = extractFeatures(h);
+            features[count++] = extractTextFeatures(h);
+        }
+        
+        return features;
+    }
+    
+    public HashMap extractFeatures(HashMap<String, HashMap> hm){
+        HashMap<String, double[]> features = new HashMap<String, double[]>();
+        Iterator iterator = hm.entrySet().iterator();
+        
+        while(iterator.hasNext()){
+            Map.Entry next = (Map.Entry)iterator.next();
+            features.put((String)next.getKey(), extractTextFeatures((HashMap<String, Double>)next.getValue()));
         }
         
         return features;
