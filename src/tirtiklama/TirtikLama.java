@@ -9,6 +9,9 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class TirtikLama {
+    
+    static int K = 3;
+    
     static FeatureExtraction fe = new FeatureExtraction();
     static ARFF arff = new ARFF(fe);
     static String trainDataSetPath = "dataset/train";
@@ -26,34 +29,30 @@ public class TirtikLama {
         // Zaten eğitilmiş bir model varsa onu kullan
         System.out.println("Reading Trained Model");
         TrainModel tm = ARFF.readTrainModel(modelPath);
-        for(double[] t : tm.values){
-            System.out.println(Arrays.toString(t));
+        for(SingleTrainData t : tm.data){
+            System.out.println(Arrays.toString(t.values));
         }
         System.out.println("Model Size: " + Arrays.toString(tm.getModelSize()));
         
-        /*
-        System.out.println("Training...");
-        HashMap<String, HashMap> tr = train(trainDataSetPath);
-        Iterator i =tr.entrySet().iterator();
+        KNN knn = new KNN(K, tm);
         
-        while(i.hasNext()){
-            System.out.println(((HashMap)((Map.Entry)i.next()).getValue()).size());
-        }
-        KNN knn = new KNN(fe, tr, 3);
-        HashMap<String, HashMap> ts = test(testDataSetPath);
+        // Test
+        System.out.println("Testing...");
+        HashMap<String, HashMap> ts = test(tm, testDataSetPath);
         Iterator testIterator = ts.entrySet().iterator();
-        
         System.out.println("Testing...");
         while(testIterator.hasNext()){
             Map.Entry t = (Map.Entry)testIterator.next();
-            Object[][] res = knn.classify(fe.extractTextFeatures((HashMap)t.getValue()));
-            for(Object[] r : res){
-                System.out.printf("Distance between %30s and %30s is: %f\t( Similarity: %% %f )\n", (String)t.getKey(), r[0], r[1], (1.0-(double)r[1])*100 );
+            Object[] object_array = ((HashMap)t.getValue()).values().toArray();
+            double[] double_array = new double[object_array.length];
+            for(int i = 0; i < object_array.length; i++){
+                double_array[i] = (double)object_array[i];
             }
+            knn.classify((String)t.getKey(), double_array).print();
+
             System.out.println("");
         }
-        */
-        //showAllSimilarities(tr, ts);
+
     }
     
     
@@ -72,18 +71,29 @@ public class TirtikLama {
         return trainSet;
     }
     
-    private static HashMap test(String testDataSetPath) throws IOException{
+    private static HashMap test(TrainModel tm, String testDataSetPath) throws IOException{
         File folder = new File(testDataSetPath);
         File[] listOfFiles = folder.listFiles();
         HashMap<String, HashMap> testSet = new HashMap<String, HashMap>(); 
         //HashMap[] trainSet = new HashMap[listOfFiles.length];
         
         for (int i = 0; i < listOfFiles.length; i++) {
-            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
-            testSet.put(listOfFiles[i].getName(), n);
+            TextAnalyzer textAnalyzer = new TextAnalyzer(listOfFiles[i].getAbsolutePath());
+            HashMap<String, Integer> lemmas = textAnalyzer.getLemmas();
+            HashMap<String, Double> normalized = new L2(lemmas).normalize();
+            HashMap<String, Double> singleTestData = getTestFeatures(tm, normalized);
+            testSet.put(listOfFiles[i].getName(), singleTestData);
         }
         
         return testSet;
+    }
+    
+    private static HashMap<String, Double> getTestFeatures(TrainModel tm, HashMap<String, Double> normalized){
+        HashMap<String, Double> features = new HashMap<String, Double>();
+        for(String word : tm.words){
+            features.put(word, normalized.getOrDefault(word, 0.0));
+        }
+        return features;
     }
     
     private static void showAllSimilarities(HashMap<String, HashMap> tr, HashMap<String, HashMap> ts) throws IOException{
@@ -117,7 +127,7 @@ public class TirtikLama {
         }
 
         arff.addTrainSet(trainSet);
-        arff.saveTrainARFF(modelPath);
+        arff.saveTrainARFF(listOfFiles, modelPath);
         
         return trainSet;
     }
@@ -134,7 +144,7 @@ public class TirtikLama {
         }
 
         arff.addTestSet(testSet);
-        arff.saveTestARFF("/dataset/outputs/test.arff");
+        arff.saveTestARFF(listOfFiles, "/dataset/outputs/test.arff");
         
         return testSet;
     }
