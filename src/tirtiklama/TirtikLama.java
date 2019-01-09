@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class TirtikLama {
     
-    static int K = 3;
+    static int K = 5;
     
     static FeatureExtraction fe = new FeatureExtraction();
     static ARFF arff = new ARFF(fe);
@@ -21,11 +21,11 @@ public class TirtikLama {
     public static void main(String[] args) throws Exception {
         File  trainModelFile = new File(modelPath);
         if(!trainModelFile.exists()){
+            // Halihazırda eğitilmiş model yoksa eğitim yap
             System.out.println("Model Training...");
             trainARFF(trainDataSetPath);
-            // Halihazırda eğitilmiş model yoksa eğitim yap
-            
         }
+        
         // Zaten eğitilmiş bir model varsa onu kullan
         System.out.println("Reading Trained Model");
         TrainModel tm = ARFF.readTrainModel(modelPath);
@@ -40,21 +40,23 @@ public class TirtikLama {
         System.out.println("Testing...");
         HashMap<String, HashMap> ts = test(tm, testDataSetPath);
         Iterator testIterator = ts.entrySet().iterator();
-        System.out.println("Testing...");
         while(testIterator.hasNext()){
             Map.Entry t = (Map.Entry)testIterator.next();
-            Object[] object_array = ((HashMap)t.getValue()).values().toArray();
-            double[] double_array = new double[object_array.length];
-            for(int i = 0; i < object_array.length; i++){
-                double_array[i] = (double)object_array[i];
-            }
-            knn.classify((String)t.getKey(), double_array).print();
-
+            knn.classify((String)t.getKey(), getWordValues(t)).print();
             System.out.println("");
         }
 
     }
     
+    private static double[] getWordValues(Object o){
+        Map.Entry t = (Map.Entry)o;
+        Object[] object_array = ((HashMap)t.getValue()).values().toArray();
+        double[] double_array = new double[object_array.length];
+        for(int i = 0; i < object_array.length; i++){
+            double_array[i] = (double)object_array[i];
+        }
+        return double_array;
+    }
     
     private static HashMap train(String trainDataSetPath) throws IOException{
         File folder = new File(trainDataSetPath);
