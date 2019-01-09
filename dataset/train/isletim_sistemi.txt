@@ -1,0 +1,110 @@
+İşletim sistemi
+Vikipedi, özgür ansiklopedi
+(İşletim sistemleri sayfasından yönlendirildi)
+Gezinti kısmına atlaArama kısmına atla
+"İS" buraya yönlendirilmektedir. İsa'dan sonra kısaltması için için İ.S. sayfasına bakınız.
+İşletim sistemi
+Operating system placement.svg
+Genel özellikler
+
+İşlem yönetimi
+Kesmeler
+Bellek yönetimi
+Dosya sistemi
+Aygıt yöneticileri
+Bilgisayar ağı
+Bilgisayar güvenliği
+G/Ç
+GTD
+İşletim sistemi, bilgisayarda çalışan, donanım kaynaklarını yöneten ve çeşitli uygulama yazılımları için yaygın servisleri sağlayan bir yazılımlar bütünüdür. İşletim sistemi, uygulama kodları genellikle direkt donanım tarafından yürütülmesine rağmen, girdi-çıktı, bellek atama gibi donanım fonksiyonları için uygulama programları ve bilgisayar donanımı arasında aracılık görevi yapar.
+
+İşletim sistemleri sadece bilgisayar, video oyun konsolları, cep telefonları ve web sunucularında değil; arabalarda, beyaz eşyalarda hatta kol saatlerinin içinde bile yüklü olabilir. İşletim sistemleri işlevsellerinin genişliği ile değil, donanımı belli bir amaç doğrultusunda programlayabilme nitelikleriyle değerlendirilmelidir.
+
+İşletim sistemlerine örnek olarak; Microsoft Windows, Mac OS X, Linux, Pardus, BeOS, Android ve iOS örnek verilebilir.
+
+
+İçindekiler
+1	Geçmiş
+2	Türleri ve terimler
+3	İşletim Sistemi Çeşitleri
+3.1	Amiga
+3.2	Chromium İşletim Sistemi
+3.3	GNU/Linux İşletim Sistemi
+3.4	Mac OS X
+3.5	MS-DOS İşletim Sistemi
+3.6	Plan 9
+3.7	Pardus İşletim Sistemi
+3.8	Windows İşletim Sistemi
+3.9	BeOS
+4	Bileşenler
+5	Gerçek Zamanlı İşletim Sistemi
+Geçmiş
+1940'larda ilk elektronik dijital sistemlerin hiçbir işletim sistemleri yoktu. bu kez elektronik sistemlerin çok ilkel talimatları genellikle mekanik anahtarları satır veya fiş kurullarında jumper telleri ile bir anda sisteme bir bit girmiş olduğunu bugün karşılaştırıldı. Bu, örneğin, delikli kâğıt kartları verilerinden bordro çeklerin askeri veya kontrollü baskı için balistik tablolar oluşturulan özel amaçlı sistemler edildi. Programlanabilir genel amaçlı bilgisayarlar icat edildikten sonra, makine dilleri (ikili rakam 0 ve 1 delikli kâğıt şerit üzerine dizeleri oluşan) programlama süreci (Stern, 1981) hızlandırdı o tanıtıldı.
+
+Türleri ve terimler
+Gerçek Zamanlı
+Gerçek zamanlı işletim sistemi, gerçek zamanlı uygulamaları çalıştırmayı amaçlayan çok görevli bir işletim sistemidir. Gerçek zamanlı işletim sistemleri genellikle özel zamanlama algoritmalarında kullanılır böylece doğanın deterministik bir davranışını elde edebilirsiniz. Gerçek zamanlı işletim sistemlerinin ana teması olaylara hızlı ve tahmin edilebilir bir tepki vermesidir. Ayrıca gerçek zamanlı işletim sistemlerinde olay güdümlü veya zaman paylaşımlı bir tasarım vardır. Öncelikli olarak görevleri arasında bir olaya dayalı sistem anahtarları, zaman paylaşımlı işletim sistemlerinin saat kesmelerine dayalı görevlere geçiş yapar.
+Gerçek Zamanlı işletim sistemlerine örnek olarak, QNX gösterilebilir.
+
+Çok kullanıcılı ve Tek Kullanıcılı
+Çok kullanıcılı işletim sistemi birden fazla kullanıcının aynı anda tek bir bilgisayar sistemine erişmesini sağlar. Bu sistem, zaman paylaşımı yoluyla bir bilgisayara birden çok kullanıcı erişimi sağladığı için zaman paylaşım sistemli çok kullanıcılı sistemler olarak sınıflandırılabilir. Çok kullanıcılı bir işletim sistemine karşı tek kullanıcılı işletim sistemleri, bir seferde tek bir kullanıcı tarafından kullanılabilir. Bir Windows işletim sisteminde birden fazla hesap için birden çok gerçek kullanıcı yoktur. Yerine, sadece ağ yöneticisi gerçek kullanıcıdır. Ama Unix benzeri bir işletim sistemi için, bu iki kullanıcı bir kerede giriş yaparak OS özelliği ile birçok kullanıcılı işletim sistemi yapmak mümkün.
+Çoklu Görev ve Tek Görev
+İşletim sistemi aynı anda birden fazla görevi yerine getirilmesini sağlayan ise bu sistemde tek bir programın aynı anda çalışmasına izin verildiğinde, sistem, tek bir görevi sistemin altında gruplandırılır. Bu tür sistemler bir Çoklu-görev işletim sistemi olarak sınıflandırılır yani çoklu görev, iki tip ön veya kooperatif davranarak olabilir. Önleyici çoklu-görev, işletim sistemi işlemcide her program için bir yuva dilim ve zaman ayırıyor. Unix-Solaris gibi işletim sistemleri ve Linux desteği gibi önleyici çoklu-görev.Çoklu-görev, kooperatif tanımlanmış bir şekilde, diğer işlemler için zaman tanımak amacıyla, her işleme dayanarak elde edilir. Windows 95 kooperatif çoklu görev desteği için örnek gösterilebilir.
+Dağıtılmış
+Bir dağıtık işletim sistemi bağımsız bir bilgisayar grubunu yönetir ve onları tek bir bilgisayarda görünmesini sağlar. Bu bağlı olabilir ve birbirleriyle iletişim ağına bağlı bilgisayarların gelişimine dağıtık bilgisayar yol açmıştır. Dağıtık hesaplama birden fazla makine üzerinde yapılmaktadır. İşbirliğiyle bir grup çalışması içinde bilgisayarlar yaptığınızda, bir dağıtık sistem yaparsınız.
+Gömülü
+Gömülü işletim sistemlerinde gömülü bilgisayar sistemlerinde kullanılmak üzere tasarlanmıştır. Daha az özerkliğe sahip PDA'lar gibi küçük makinelerde çalışacak şekilde tasarlanmıştır. Bu sistemlerin kaynakları sınırlı sayıda faaliyet gösterir. Bu sistemlerin tasarımı son derece verimlidir ve bu sistemlerde çok kompakt vardır. Windows CE ve Minix 3 gömülü işletim sistemlerinin bazı örneklerdir.
+Bir işletim sistemi, kavramsal olarak, üç grupta toplanabilecek bileşenlerden oluşur: kullanıcı arayüzü (bu bir grafik kullanıcı arayüzü ve/ya da komut satırı yorumlayıcısı ["kabuk" da denir] olabilir), alt düzey sistem işlevleri, ve bir çekirdek. Çekirdek, işletim sisteminin kalbidir. Adından da anlaşılabileceği gibi, "kabuk", çekirdeğin çevresini sararken, donanımla iletişim kurmak da çekirdeğin işidir.
+
+Kimi işletim sistemlerinde kabuk ve çekirdek tümüyle ayrı bileşenlerken, kimilerinde bu ayrım yalnızca kavramsaldır.
+
+Çekirdek tasarımları, yekpare (monolithic) çekirdekler, mikro-çekirdekler ve ekzo-çekirdekler olarak üç ana gruba ayrılabilir. UNIX ve Windows +Ms dos gibi geleneksel ticari sistemler ve Linux gibi daha yeni yaklaşımlar monolitik çekirdek kullanırken, QNX, BeOS, Windows NT gibi yeni sistemlerin çoğu mikroçekirdek yaklaşımını kullanır. Araştırma amacıyla geliştirilen işletim sistemlerinin çoğu da mikro-çekirdek kullanırlar. Ekzo-çekirdekler ise henüz araştırma aşamasındadır.
+
+İşletim Sistemi Çeşitleri
+Amiga
+Ana madde: Amiga (işletim sistemi)
+1994 yılında commodore international iflas ettikden sonra Amiga kişisel bilgisayarlarının tüm hakları amiga inc'e kalmıştır ve Amiga işletim sistemini tekrar geliştirilebilmesi için 2006 yılında PowerPC üzerinde uzmanlaşmış yazılım şirketi Hyperion Entertainment lisans vermiştir bir süre sonra da tüm hakları bu şirkete kalmıştır. AmigaOS 4 ExecSG (Second Generation) çekirdeği üzerine kurulmuştur. AmigaOS, kurulduğu donanımdan maksimum performansı alan ve mükemmel bir çokgörevlilik (multitasking) özelliğine sahip olan, çok esnek bir işletim sistemidir. Commodore İnternational yazdığı AmigaOS 3.1'işletim sisteminin kaynak kodlarından devam edilerek günümüzde 4.1 update 5 sürümüne kadar yükselmiştir çok yakında hyperion entertainment yeni ve en güçlü amiga donanımı olan Amigaone X1000 ile AmigaOS 4.2 'yi piyasaya sürerek Amigacılara gelecek vadetmektedir.
+
+Chromium İşletim Sistemi
+Chromium, Linux çekirdeği esas alınarak Google tarafından tasarlanmış olan bir işletim sistemidir. Chromium zamanının büyük bir kısmını bilgisayar başında geçiren kullanıcıları hedef almaktadır. Teknik olarak sadece başka uygulama kullanmayan bir tarayıcıdır. Kelime işlemek, videolara, fotoğraflara bakmak gibi görevleri yerine getirmek için tarayıcıda kullanılan internet uygulamalarına güvenmektedir.
+
+GNU/Linux İşletim Sistemi
+Ana madde: Linux
+GNU/Linux, UNIX benzeri bir işletim sistemidir ve bilgisayarlardan kol saatlerine çok çeşitli alanlarda kullanılmaktadır. GNU/Linux, Unix’e benzeyen ancak tamamen orijinal kod ile ücretsiz ve açık bir işletim sistemi yaratmaya çalışan bir programcı kitlesi iş birliğidir. 1983 yılında Richard Stallman tarafından başlatılan GNU projesi ile 1991 yılında Linus Torvalds tarafından başlatılan çekirdek tasarımının birleşimidir. Bu nedenle Linux çekirdeği ve GNU yazılım koleksiyonunun kullanıldığı bu işletim sistemine GNU/Linux denir. Bugün dünyanın dört bir yanına yayılmıştır ve sürekli olarak gelişim içerisindedir.
+
+GNU/Linux açık kaynak koduna sahip ve özgür (free software) bir işletim sistemidir. Bu sistemde bir hata tespit edilirse dünyanın herhangi bir yerindeki bir programcı çok kısa sürede bu sorunu çözebilir. GNU/Linux işletim sisteminde pek çok karmaşık programı bir arada açsanız bile bilgisayarınız sorunsuz bir şekilde çalışmaya devam eder. İnternet'ten kurulumu ücretsiz indirebilir ve talimatları takip ederek bilgisayarınıza kurabilirsiniz. Sürücüler çekirdek içine gömülü olduğu için tek tek kurmak zorunda kalmazsınız. Ancak bir sorun ile karşılaşır veya kapalı kaynak sürücüleri kullanmak isterseniz geliştiricilerin yazdığı yazılımları kullanabilirsiniz.
+
+Tüm bunlara rağmen, tahmini hesaplar GNU/Linux'un %1,1 oranlarında kişisel bilgisayarlarda kullanıldığını gösterse de; sunucular ve gömülü sistemler tarafından yaygın olarak benimsenmiştir. GNU/Linux birçok alanda Unix'in yerini almaktadır ve dünyada en güçlü 10 süper bilgisayarda kullanılmaktadır. Ubuntu, Android, Debian, Arch Linux GNU/Linux dağıtımlarına örnek verilebilir.
+
+Eskiden son kullanıcı tarafında pek fazla etkili olamayan ve tercih edilmeyen GNU/Linux, son yıllarda Ubuntu, Linux Mint, Pardus gibi dağıtımlarla son kullanıcıya da hitap etmeye başlamıştır. Özellikle Ubuntu sayesinde çok fazla insan GNU/Linux'u tercih etmeye başlamıştır. Bunda Ubuntu'nun görselliğe önem veren politikaları, diğer işletim sistemlerinde çok zorlanarak yapılabilecek masaüstü şovlarının (Compiz Fusion) son kullanıcıyı etkilemesi de önemli rol oynamıştır.
+
+Mac OS X
+Mac OS X, Apple şirketi tarafından geliştirilen, pazarlanan ve satılan kısmi özel, grafiksel bir işletim sistemidir. Yine Apple'ın 1984 yılında oluşturduğu ilk işletim sistemi olan Mac OS' in son sürümüdür. Fakat Mac OS 8 ve 9 sürümlerinin aksine, Mac OS X, NeXT şirketi tarafından geliştirilmiş bir teknoloji üzerine kurulmuş UNIX tabanlı bir işletim sistemidir.
+
+İşletim sistemi ilk kez 2001 yılının Mart ayında aşağıdaki bir masaüstü odaklı versiyonu (Mac OS X v10.0) ile, Mac OS X Server 1.0 olarak 1999 yılında piyasaya sürüldü. O zamandan beri, altı farklı "müşteri" ve Mac OS X'in "server " sürümleri serbest bırakıldı, en son Mac OS X 10.6 sürümü 28 Ağustos 2009 tarihinde kullanıma sunuldu.
+
+Sunucu sürümü, Mac OS X Server mimari masaüstü muadili ile aynıdır ama genellikle Macintosh sunucu donanımı Apple'ın hattı üzerinde çalışır. Mac OS X Server çalışma grubu yönetimi ve anahtar ağ hizmetlerine erişim sağlayan basitleştirilmiş yönetim yazılım araçları içerir. Bir posta aktarım aracısı, LDAP sunucusu, bir alan adı sunucusu ve diğerleri dâhildir.
+
+MS-DOS İşletim Sistemi
+Microsoft firması tarafından geliştirilmiş eski bir işletim sistemidir. Windows üretildikten sonra unutulmuş ve şu anda sadece format atarken ya da dosya kurtarırken kullanılmaktadır. İngilizce karşılığı: disk yönetim sistemi olarak çevirilebilir. Üretim amacı bu olmasına rağmen daha sonradan DOS ortamında çalışan birçok uygulama ve oyun üretilmiştir.
+
+Plan 9
+Ken Thompson, Dennis Ritchie ve Douglas McIlroy, Unix işletim sistemini kurmak için Bell labratuvarlarında C programlama dilini dizayn edip geliştirmiştir. Bell laboratuvarlarındaki programcılar, modern dağıtılmış çevreler için düzenlenmiş Plan 9 ve Inferno'yu geliştirmeye devam ettiler. Plan 9 başlangıcında ağ işletim sistemi olarak dizayn edildi buna karşın Unix, bu özellikleri dizayna sonradan dahil etmiştir. Şu anda Lucent kamu lisansı altında piyasaya sunulmaktadır. Inferno Vita Nuova Holdings'e satıldı ve GPL/MIT lisansı altında piyasaya sunulmaktadır.
+
+Pardus İşletim Sistemi
+Tübitak Ulusal Elektronik ve Kriptoloji Araştırma Enstitüsü bünyesinde yürütülen bir Linux dağıtımı projesidir. Açık kaynak kodlu ve GPL (Genel Kamu Lisansı)ile dağıtılan bir özgür yazılım ürünüdür. Pardus, bilişim okur-yazarlığına sahip bilgisayar kullanıcılarının temel masaüstü ihtiyaçlarını karşılayan, mevcut Linux dağıtımlarının üstün taraflarını kavram, mimari ya da kod olarak kullanan bir ulusal dağıtımdır.
+
+Windows İşletim Sistemi
+Ana madde: Windows
+Microsoft Windows, kişisel bilgisayarlarda en çok kullanılan özel işletim sistemlerinden biridir. Son zamanlarda, Windows'un en çok kullanılan versiyonu Windows XP'dir. Windows XP 25 Ekim 2001 tarihinde yayınlanmıştır. Yeni versiyonlar ise: kişisel bilgisayarlar için Windows 10, sunucular için ise Windows Server 2016'dir.
+
+Microsoft Windows, 1981 yılında eski MS-DOS işletim sistemi üzerine IBM PC eklentisi yapılarak piyasaya sürülmüştür. İlk olarak 1985 yılında yayımlanan Windows, kişisel bilgisayarların iş dünyasına hakim olmuştur. Windows XP ile başlayarak tüm modern versiyonları Windows NT çekirdeği üzerine kurulmuştur.
+
+BeOS
+BeOS (Be Operating System), Be Incorporated tarafından 1991 yılında piyasaya sürülmüş olan UNIX türevi bir işletim sistemidir. Kendine ait bir dosya sistemine (BeFS) sahiptir. İlk başta Apple için AT & T Hobbit tabanlı donanım üzerinde çalışacak şekilde tasarlanmıştır ve sonra PowerPC tabanlı işlemciler üzerinde çalışacak şekilde modifiye edilmiştir. Daha sonra BeBox için özel olarak geliştirilen BeOS, sonra diğer bilgisayarları da desteklemeye başlamıştır. BeOS multimedya, iş ve yüksek performans için geliştirilmiş bir işletim sistemidir. BeOS'un arayüzü temiz ve derli toplu olarak geliştirildi. BeOS kolay API programlama için C++ dilinde yazılmıştır. Büyük ölçüde POSIX uyumluluğu vardır. 2001 yılında Be Inc. ekonomik nedenlerden Palm'e satılmıştır. İsim ve telif haklarının da satılması nedeniyle ismi değiştirilmiş ve bir süre açık kaynak kodlu şekilde OpenBeOS ismiyle devam etmiştir. Palm'ın telif hakları gereğince ismi değiştirilerek bu işletim sistemi günümüzde Haiku OS olarak geliştirilmeye devam etmektedir.
+
+Bileşenler
+Bir işletim sisteminin bileşenleri hep birlikte bir bilgisayarın çalışmasını sağlamak üzere bir düzen içinde çalışırlar. Mali veritabanlarından film editörlerine kadar bütün yazılımlar, ister fare ya da klavye kadar basit olsun, ister internet bağlantısı kadar karmaşık olsun, herhangi bir donanımı kullanmak için işletim sistemine ihtiyaç duyar.
+
+Gerçek Zamanlı İşletim Sistemi
+Gerçek zamanlı işletim sistemi (RTOS) gerçek zamanlı uygulama isteklerine hizmet vermek amacıyla kullanılan işletim sistemidir.

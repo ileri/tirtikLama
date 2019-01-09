@@ -1,0 +1,84 @@
+
+Hayatta herşeyin mutlaka bir ilki vardır, makaleye hayattan bir örnek vermek istiyorum ama malum malzeme yetersiz. Neyse konumuza geçelim; Elektronik ürünlerin hiç tarihini merak ettiniz mi? Mesela şu an cep telefonu popüler bir iletişim aracı halince. Cep telefonunun ilk çıkan modelini ya da şöyle söyleyim ilk çıkan cep telefonunu hiç merak ettiniz mi?
+
+Hayat ile makaleye başladım, elektronik ürünlerin tarihi ile devam ettim ve ilk cep telefonunda artık örneği bitirmek istiyorum.
+
+ 
+
+ 
+
+Çünkü bu gece sizlere anlatacağım makalem: İlk Üretilen Bilgisayar!
+
+ 
+
+Kendisine verdiğimiz bilgileri istediğimizde saklayabilen, istediğimizde geri verebilen cihaza bilgisayar denir. İlk bilgisayar ENIAC’tır.
+
+ 
+
+Bilgisayarlar çok farklı biçimlerde karşımıza çıkabilirler. 20. yüzyılın ortalarındaki ilk bilgisayarlar büyük bir oda büyüklüğünde olup, günümüz bilgisayarlarından yüzlerce kat daha fazla güç tüketiyorlardı. 21. yüzyılın başına varıldığında ise bilgisayarlar bir kol saatine sığacak ve küçük bir pil ile çalışacak duruma geldiler. Bu kadar küçük imal edilebilmelerinin temel nedeni 1969 yılında yarı iletkenler ile çok küçük alanlara sığdırılabilen devreler yapılabilmesidir.
+
+ 
+
+Şu anda kullandığımız bilgisayarlar Intel’in ilk işlemci unvanına sahip olan 4004’den sonra bilgisayar teknolojisi hız kazanmıştır. Toplumumuz kişisel bilgisayarı ve onun taşınabilir eşdeğeri, dizüstü bilgisayarını, bilgi çağının simgeleri olarak tanıdılar ve bilgisayar kavramıyla özdeşleştirdiler. Günümüzde çok yaygın kullanılmaktadırlar. Bilgisayarın temel çalışma prensibi ikili sayı sistemidir. yani 0 ve 1 den ibarettir.
+
+ 
+
+İstenilen yazılımı kayıt edip istenilen zamanda çalıştırabilmeleri bilgisayarları çok yönlü kılıp hesap makinelerinden ayıran ana özellikleridir. Church-Turing tezi bu çok yönlülüğün matematiksel ifadesidir ve herhangi bir bilgisayarın bir diğer bilgisayarın görevlerini yerine getirebileceğinin altını çizer. Dolayısıyla, karmaşıklıkları ne düzeyde olursa olsun, cep bilgisayarından süper bilgisayarlara kadar, bellek ve zaman sınırı olmadığı takdirde hepsi aynı görevleri yerine getirebilirler.
+
+ 
+
+Gelin Sizlerle ENIAC Bilgisayarın Çocukluğuna, Pardon Geçmişine Değinelim 🙂
+
+ 
+
+İlk bilgisayar 1948 yılında yapılmıştır.
+
+ 
+
+Geçmişte ‘bilgisayar’ olarak bilinen birçok aygıt günümüz ölçütlerine göre bu tanımı hak etmemektedirler. Başlangıçta bilgisayar sözcüğü hesaplama sürecini kolaylaştıran nesnelere verilen bir ad konumundaydı. Bu ilk dönemin bilgisayar örnekleri arasında sayı boncuğu (abaküs) ve AntiKitira Makinesi (M.Ö 150-100) sayılabilir. Yüzyıllar sonra, Orta Çağ sonundaki yeni bilimsel keşifler ışığında, Avrupalı mühendisler tarafından geliştirilen bir dizi makinesel hesaplama aygıtlarının ilki ise, Wilhelm Schickard’a (1623) aittir.
+
+ 
+
+Ancak, yazılımlanabilir (veya kurulabilir) olmamaları nedeniyle bu aygıtların hiçbiri günümüz bilgisayar tanımına uymamaktadır. 1801 yılında Joseph Marie Jacquard’ın dokuma tezgâhındaki işlemi otomatikleştirmek adına ürettiği delikli kartlar ise bilgisayarların gelişme sürecindeki, kısıtlı da olsa, ilk yazılımlanabilme (kurulabilme) izlerinden sayılır. Kullanıcının sağladığı bu kartlar sayesinde, dokuma tezgâhı kart üzerindeki delikler ile tarif edilen çizime işleyişini uyarlayabiliyordu.
+
+1837 yılında Charles Babbage, adını Analytical Engine (Çözümlemeli veya analitik makine) koyduğu, ilk tam yazılımlanabilir makinesel bilgisayarı kavramsallaştırıp tasarladı. Ancak parasal nedenler ve üzerindeki çalışmalarının sonlanamaması nedeniyle bu makineyi geliştirmedi.
+
+ 
+
+Delikli kartların ilk büyük ölçekli kullanımı ise Herman Hollerith tarafından, 1890 yılında muhasebe işlemlerinde kullanılmak üzere tasarlanan hesap makinesidir. Hollerith’in o dönemde bağlı olduğu işletme ise sonraki yıllarda küresel bilgisayar devine dönüşecek IBM’dir. 19. yüzyılın sonlarına varıldığında, gelecek yıllarda bilişim donanım ve kuramlarının gelişimine büyük katkıda bulunacak uygulayımlar (teknolojiler) ortaya çıkmaya başlamıştılar: delikli kartlar, Boole cebiri, boşluk tüpleri ve teletip aygıtları.
+
+ 
+
+20. yüzyılın ilk yarısında ise, birçok bilimsel gereksinim, gittikçe karmaşıklaşan örneksel (analog) bilgisayarlar ile giderildiler. Ancak günümüz bilgisayarlarının yanılmazlık düzeyinden hâlâ uzaktılar.
+
+ 
+
+1930’lar ve 1940’lar boyunca bilgisayar uygulamayı gelişmeye devam etti, ve sayısal elektronik bilgisayarın ortaya çıkışı ancak elektronik devrelerinin buluşundan (1937) sonra gerçekleşebildi. Bu dönemin önemli çalışmaları arasında aşağıdakiler sayılabilir:
+
+ 
+
+ENİAC, von Neumann mimarisini uygulayan ilk bilgisayarlardandır.
+
+ 
+
+• Konrad Zuse’nin “Z makineleri”. Z3 (1941) ikili sayı tabanına dayalı işleyip, gerçel sayılar ile işlem yapabilen ilk makinedir. 1998 yılında Z3’ün Turing uyumlu olduğu kanıtlanmış ve böylece ilk bilgisayar unvanını edinmiştir.
+• Atanasoff-Berry Bilgisayarı (1941) boşluk tüplerine dayalı olup, ikili sayı tabanının yanı sıra, sığaç tabanlı bellek donanımına sâhipti.
+• İngiliz yapımı Colossus bilgisayarı (1944), kısıtlı yazılımlanabilirliğine (kurulabilirliğine) karşın, binlerce tüp kullanımının yeterince güvenilir bir sonuç verebileceğini göstermiştir. II. Dünya Savaşı’nda Alman silahlı kuvvetlerinin gizli iletişimlerini çözümlemek için kullanılmıştır.
+• Harvard Mark I (1944), kısıtlı kurulabilirliğe sahip bir bilgisayar.
+• ABD Ordusu tarafından geliştirilen ENIAC (1946), onluk sayı tabanına dayalı olup ilk genel kullanım amaçlı elektronik bilgisayar unvanına sahiptir.
+
+ 
+
+ENIAC’ın olumsuz yanlarını saptayan geliştiricileri, daha esnek ve zarif bir çözüm üzerinde çalışıp, artık saklı yazılım mimarisi veya daha çok von Neumann mimarisi olarak tanınan tasarımı önerdiler. Bu tasarımdan ilk olarak John von Neumann (1945) yılında gerçekleştirdiği bir yayında söz etmesinden sonra, bu mimariye dayalı olarak geliştirilen bilgisayarlardan ilki İngiltere’de tamamlandı (SSEM). Aynı mimariye bir yıl sonra kavuşan ENIAC’a ise EDVAC adı verildi.
+
+ 
+
+Günümüz bilgisayarlarının neredeyse tamamının bu mimariye uyumlu duruma gelmesi ile bilgisayar sözcüğünün tanımı olarak da kullanılmaktadır. Dolayısıyla bu tanıma göre geçmişteki aygıtlar bilgisayar olarak sayılmasalar da, tarihsel bağlamda yine de o biçimde anılmaktadırlar. Her ne kadar1940’lardan bu yana bilgisayar uygulayımı köklü değişiklikler geçirmiş olsa da, çoğunluğu von Neumann mimarisine sadık kalmıştır.
+
+Mikroişlemci von Neumann mimarisinin temel öğelerindendir.
+
+Boşluk tüpüne dayalı bilgisayarlar 1950’ler boyunca kullanımda kaldıktan sonra, 1960’larda daha hızlı ve ucuz olan geçirgeç (transistör) tabanlı bilgisayarlar yaygınlık kazandı. Bu etkenlerin sonucunda bilgisayarların daha önce görülmemiş bir düzeyde toplu üretimine geçirildi. 1970’lere varıldığında tümleşik devre uygulayımı ve Intel 4004 gibi mikroişlemcilerin geliştirilmesi sayesinde bir kez daha büyük bir başarım ve güvenilirlik artışının yanı sıra, maliyet düşüşü de yaşandı.
+
+ 
+
+1980’lerde artık bilgisayarlar, çamaşır makinesi gibi günlük hayat kullanımındaki birçok makinesel aygıtın denetleyici donanımlarındaki yerlerini almaya başlamışlardı. Yine aynı dönemde, kişisel bilgisayarlar yaygınlık kazanıyorlardı. Son olarak 1990’lardaki Internet’in gelişimi ile de bilgisayarlar televizyon ve telefon gibi alışılmış birer aygıt hâline gelmişlerdir. Von Neumann mimarisine göre bilgisayarlar başlıca dört bileşenden oluşurlar bilgisayarda aritmetik mantık vardır.

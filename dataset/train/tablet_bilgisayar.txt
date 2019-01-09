@@ -1,0 +1,16 @@
+Tablet bilgisayar veya sadece tablet, tek bir ünitede ekran devresi ve batarya bulunan bir mobil bilgisayardır. Tabletler parmak-kalem hareketlerini algılayabilen, fare ve klavye ile kombine edilebilen, kamera ve ivmeölçer gibi sensörlerle donatılan cihazlardır. Temel özellikleri kontrol edebilmek amacıyla ekstra fiziksel tuşlar içerebilir. İçerdiği sanal klavye eklentisi ile kullanılır.
+
+7 inç veya daha büyük ekrana sahip cihazlar tablet olarak nitelendirilebilir. Akıllı telefonlardan ve phabletlerden daha büyüktürler.
+
+20. yüzyıl içerisinde geliştirilmeye başlanan tabletler 2010 yılından itibaren popüler olmuş ve minibook adı verilen küçük boyutlu dizüstü bilgisayarların yerini almıştır.
+
+Tablet türleri
+
+Apple iPad
+Tabletler klavye türüne ve fiziksel görünümüne göre sınıflandırılabilir. Booklet türü tabletler fiziksel klavye kullanmazlar (opsiyonlar haricinde). Kitap şeklindedirler ve sanal klavye kullanırlar. Apple iPad en bilindik booklet türü tabletlerden biridir. Hibrid ve konvetribl olan tabletler ise hem sanal klavyeye, hem de fiziksel klavyeye sahiptir. ASUS Transformer Book buna örnek olarak gösterilebilir. Ayrıca iPad Mini gibi mini tabletler ve Galaxy Note 3 gibi phabletler de tablet türleri arasındadır.
+
+İşletim sistemi
+Bazı tabletler mobil işletim sistemleri kullanırken bazı tabletler ise bilgisayarlarda kullanılan işletim sistemlerini kullanır. Örneğin iPad, iOS işletim sistemine sahiptir ve akıllı telefonlarında kullanılan işletim sistemini kullanır. Microsoft Surface Pro 3 tablet ise bilgisayarlarda kullanılan Windows 8 işletim sistemini kullanır.
+
+Kullanıcı kitlesi
+Tabletlerin kullanıcı kitlesi ağırlıklı olarak iş insanları ve multimedya içeriklerle yakından ilgili kişilerdir. Dizüstü bilgisayarların taşınması ve kullanılabilirliği tabletlere göre çok daha zordur. Ayrıca multimedya içeriklerinin takip edilmesi tabletlerden çok daha hızlı ve kolay yapılmaktadır. Tabletler dizüstü bilgisayarlara göre çok daha hafif ve taşıması çok daha kolaydır.

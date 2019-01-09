@@ -1,0 +1,16 @@
+UMPC (İngilizce: Ultra Mobile PC), Ultra Taşınabilir Bilgisayar, fikir olarak Microsoft ve Intel firmaları tarafından ortaya çıkarılmış ekstra küçük ve taşınabilir bilgisayar türüdür. Bu projenin önceki adı Origami dir. İlk UMPC tanıtımları CeBIT 2006'da Microsoft ve Intel tarafından yapılmıştır. Bu alanda ilk çalışmalardan birisi de 2004 yılında Sony tarafından Vaio U serisi olarak gerçekleştirilmiştir. Bu seri Avrupa ve Asya pazarında satışa sunulmamıştır.
+
+2006 yılının bahar ayında Microsoft ve Intel tarafından piyasaya sunulan PC 1 bir kalem bilgisayar olup bu bilgisayar sınıfının küçük bir form faktörlü sürümüdür. Sony 2004 yılında yaptığı denemede Vaio U serisini sadece Asya'da satabıldı.Subnotebook'lardan daha küçük olan UMPC'ler 17,8 cm ve 12,7 cm ebatlarında bir TFT ekrana sahiptir. Subnotebooks ve ultra mobil PC'ler arasında açık bir sınır yoktur
+
+İlk nesil UMPC'ler Linux ya da Microsoft'un Tablet PC işletim sisteminin uyarlanmış sürümünü çalıştıran basit PC'lerdi.UMPC bir duyuru ile tablet pc ler hakkında algılama destek lisans şartını iptal etti.
+
+Ultra Taşınabilir Bilgisayar'lar yaklaşık 20 cm (7" inch)'den küçük boyutlarda ve dokunulabilir ekran özelliklerine sahiptirler. Ağırlıkları 900 gram altındadır. Dahili klavyesi olan UMPC'lerde vardır.
+
+UMPC'lerin, Taşınabilir Bilgisayar'lardan farklı olarak sahip oldukları özellikler:
+
+GPS(Global Positioning System,türkçe:Küresel Yer Belirleme Sistemi) sistemi,
+Webcam, Dahili kamera,
+TV-Tuner, Televizyon sistemi,
+Parmak izi okuyucu, Parmak izi tanıma,
+Daha az güç tüketimi
+Ekstra özelliklere sahip dokunmatik TFT ekran

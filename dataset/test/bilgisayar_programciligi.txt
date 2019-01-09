@@ -1,0 +1,33 @@
+BİLGİSAYAR PROGRAMCILIĞI PROGRAMI TANITIMI
+Sayfayı Yazdır
+Eğitim / Öğrenim
+
+Bilgisayar Programcılığı Programın amacı; her geçen gün önem kazanan bilgisayar teknolojisi eğitimini öğrencilerimize en doğru şekilde öğretmek, detaylı uygulamalarıyla sunmaktır. Bu şekilde sektörün ihtiyaç duyduğu nitelikli, teknolojiyi bilen, bildiğini üretime katabilen öğrenciler yetişmektedir.
+
+Bilgisayar Programcılığı Programından mezun olan öğrencilerimiz için hedeflerimiz; Temel programlama mantığı, veri tabanı, internet programcılığı, ağ sistemleri, web tasarımı, bilgisayar donanımı konularında teorik ve pratik bilgiler ile eğitilen bireyler yetiştirmektir. Ayrıca, iş hayatının ve toplumsal yaşamın bilgi toplama ve bu bilgileri işleme ile ilgili konularındaki problemlerinin bilgisayarda çözümlenmesi alanlarında çalışacak ara insan gücünü yetiştirmektir.
+
+Programı meslek liselerinin “Bilişim Teknolojileri Alanı” mezunları ve lise mezunu olup
+bilgisayarı sadece alışılagelmiş işleri gerçekleştirme aracı olmaktan çıkarıp insanların problemlerine çözüm üreten bir araca dönüştürmek isteyenler ile bilgisayar karşısında saatlerini geçirmekten sıkılmayacak olan tüm öğrenciler bu bölümü tercih edebilirler ve okuyabilirler. Öğrencilerimiz iki yılın sonunda 120 AKTS kredisiyle mezun olacaktır. Dersler teorik, uygulamalı, zorunlu, mesleki ve seçmeli olup, piyasa ihtiyaçları ve günün gelişen teknolojik eğilimlerine uygun olacak şekilde güncellenen geniş kapsamlı içeriklere sahiptir.
+
+Lisans Eğitimine devam etmek isteyen öğrencilerimiz, dikey geçiş sınavı ile Bilgisayar Mühendisliği, Bilgisayar Bilimleri, Bilgisayar Teknolojisi ve Bilişim Sistemleri, Bilgisayar ve Enformasyon Sistemleri, Bilgisayar ve Öğretim Teknolojileri Öğretmenliği, Bilişim Sistemleri Mühendisliği, Fizik, İstatistik, Matematik ve Bilgisayar Bilimleri, Uygulamalı Matematik ve Bilgisayar, Yazılım Mühendisliği bölümlerini tercih edebilmektedirler.
+
+
+Eğitim / Öğrenim Olanakları
+
+Okulumuzda Bilgisayar Programcılığı Programı’na ait iki adet bilgisayar laboratuvarları mevcuttur.
+
+Öğrencilerin Mezun Olduktan Sonra Kazanacağı Yetkinlikler
+
+Bilgisayar Programcılığı Programından mezun olan öğrenciler “Bilgisayar Program Teknikeri” ünvanını almaya hak kazanırlar. Bilgisayar Programları mezunları, sektörün ihtiyaç duyduğu yazılım, ağ ve internet teknolojilerini bilen ve bu alanda uygulama yapan bütün sanayi kuruluşlarında, yönetim ve hizmet alanlarında sistem çözümleyicisi ve uygulama programcısı, bilgisayar donanım ve yazılım üreten ve pazarlayan işletmelerde ve bilgi işlem merkezlerinde sistem programcısı olarak ya da yönetim bilişim sistemleri alanlarında, veri tabanı yönetmeni olarak görev yaparlar.
+
+Eğitim Alanına İlişkin Mesleki Bilgiler
+
+Bilgisayar, kendisine işlediğimiz bilgileri istediğimizde saklayabilen, istediğimizde geri verebilen cihaza denir.
+
+Bilgisayarlar, tarih boyunca, çok farklı biçimlerde karşımıza çıkmışlardır. 20. yüzyılın ortalarındaki ilk bilgisayarlar büyük bir oda büyüklüğünde olup, günümüz bilgisayarlarından yüzlerce kat daha fazla güç tüketiyorlardı. 21. yüzyılın başına varıldığında ise bilgisayarlar bir kol saatine sığacak ve küçük bir pil ile çalışacak duruma geldiler. Bu kadar küçük imal edilebilmelerinin temel nedeni 1969 yılında yarı iletkenler ile çok küçük alanlara sığdırılabilen devreler yapılabilmesidir. Şu anda kullandığımız bilgisayarlar Intel'in ilk işlemci unvanına sahip olan 4004'ten sonra bilgisayar teknolojisi hız kazanmıştır. Toplumumuz kişisel bilgisayarı ve onun taşınabilir eşdeğeri, dizüstü bilgisayarını, bilgi çağının simgeleri olarak tanıdılar ve bilgisayar kavramıyla özdeşleştirdiler. Günümüzde çok yaygın kullanılmaktadırlar. Bilgisayarın temel çalışma prensibi ikili sayı sistemi yani sadece 0 ve 1 den oluşan kodlamalardır. İstenilen yazılımı kayıt edip istenilen zamanda çalıştırabilmeleri bilgisayarları çok yönlü kılıp hesap makinelerinden ayıran ana özellikleridir.
+
+Yazılım kavramı bilgisayardaki özdek (maddi) olmayan tüm bileşenleri tanımlar: yazılımlar, iletişim kuralları ve veriler hepsi yazılımdır.
+
+Programlama dili, yazılımcının bir algoritmayı ifade etmek amacıyla, bir bilgisayara ne yapmasını istediğini anlatmasının yoludur. Programlama dilleri, yazılımcının bilgisayara hangi veri üzerinde işlem yapacağını, verinin nasıl depolanıp iletileceğini, hangi koşullarda hangi işlemlerin yapılacağını tam olarak anlatmasını sağlar.
+
+Bilgisayar programcılığı, söz dizimi ve anlamı tanımlanmış bir kurallar bütününü olan programlama dillerini kullanarak ve bu şekilde sonlu sayıda komutu yazarak donanımına belli bir işi yaptırmaktır.

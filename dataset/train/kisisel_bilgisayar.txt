@@ -1,0 +1,12 @@
+Kişisel bilgisayar veya PC (İng: Personal Computer), şahsi kullanımına yönelik özel olarak tasarlanmış, herhangi bir uzman veya operatörün yardımı olmadan kişilerin kendi başlarına kullanabileceği bilgisayar türü. Masaüstü bilgisayarlar, dizüstü (laptop) bilgisayarlar ve tablet bilgisayarlar, PC'lere örnek olarak verilebilir. Kişisel bilgisayarlar evde, büroda veya mobil olarak (hareket halindeyken) kullanılabilirler.
+
+Kişisel bilgisayarlardaki yazılım uygulamaları; metin işlemeyi, tablolama programını, veritabanlarını, web tarayıcılarını, e-posta istemcilerini, oyunları, sayısız kişisel performans ve özel amaçlı yazılım uygulamarını kapsar. Modern kişisel bilgisayarlarda çoğunlukla internet bağlantısı bulunmakta ve dünya çapında ağ’a (WWW) erişilebilmektedir.
+
+Kişisel bilgisayarlarda en yaygın olarak kullanılan mikroişlemciler x64-uyumlu CPU'lardır. Önceki yıllarda x86-uyumlu CPU´lar yaygın olarak kullanılmıştır ve yakın gelecekte x64 CPU'lar, x86 CPU´ların yerini tamamen alacaklardır.[kaynak belirtilmeli] Çünkü x86-uyumlu işlemciler yeni programların ihtiyaç duyduğu gücü sağlamakta yetersiz kalmakta, yeni nesil işlemciler ise hem daha ucuza mal edilebilmekte hem de performansı daha iyi sağlamaktadır.
+
+Tarihçe
+
+1977 tarihli Apple II, ilk kişisel bilgisayarlardan biridir ve 2 milyon adet satmıştır.
+İlk kişisel bilgisayar olarak Altair 8800 gösterilmektedir. Kişisel bilgisayarlar yaygın olarak IBM uyumlu olup, Linux işletim sistemini içerebileceği gibi, Macintosh olup Mac OS X de içerebilir. Günümüzde en yaygın işletim sistemi ise Microsoft firmasının ürünü olan Windows serisidir.[kaynak belirtilmeli]
+
+Kişisel bilgisayar, terimi ilk kez New York Times gazetesinde 3 Kasım 1962'de kullanılmıştır.
