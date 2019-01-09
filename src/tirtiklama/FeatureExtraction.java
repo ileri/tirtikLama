@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class FeatureExtraction {
@@ -32,6 +33,7 @@ public class FeatureExtraction {
             words.add((String)(((Map.Entry)i.next())).getKey());
         }
     }
+   
     
     public double[] extractTextFeatures(HashMap<String, Double> h){
         add(h);

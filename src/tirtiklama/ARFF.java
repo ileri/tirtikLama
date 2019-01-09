@@ -23,7 +23,7 @@ public class ARFF {
     public void addTestSet(HashMap<String, Double>[] ts){
         testSet = ts;
     }
-    /*
+
     public void saveTrainARFF(String filePath) throws IOException{
         String[] words = featureExtraction.wordsArray();
         String[] contents = new String[3 + words.length + trainSet.length ];
@@ -77,7 +77,7 @@ public class ARFF {
     
 
     private String getARFFValues(HashMap<String, Double> h){
-        return Arrays.stream(featureExtraction.extractFeatures(h))
+        return Arrays.stream(featureExtraction.extractTextFeatures(h))
         .mapToObj(String::valueOf)
         .collect(Collectors.joining(", "));
     }
@@ -104,5 +104,4 @@ public class ARFF {
         return "{" + Arrays.stream(classes).mapToObj(String::valueOf)
         .collect(Collectors.joining(", ")) + "}";
     }
-    */
 }

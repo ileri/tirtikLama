@@ -6,19 +6,22 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class KNN {
-    HashMap<String, double[]> values;
     int k;
+    FeatureExtraction fe;
+    HashMap<String, HashMap> tr;
     
-    KNN(HashMap<String, double[]> values, int k){
+    KNN(FeatureExtraction fe, HashMap<String, HashMap> tr, int k){
         if(k % 2 == 0){
             System.err.println("k muts be odd");
             System.exit(1);
         }
         this.k = k;
-        this.values = values;
+        this.fe = fe;
+        this.tr = tr;
     }
     
     public Object[][] classify(double[] point){
+        HashMap<String, double[]> values = fe.extractFeatures(tr);
         Object[][] distances = new Object[values.size()][2];
         Iterator iterator = values.entrySet().iterator();
         
@@ -26,6 +29,8 @@ public class KNN {
         
         while(iterator.hasNext()){
             Map.Entry entry = (Map.Entry)iterator.next();
+            HashMap<String, double[]> hm = new HashMap<String, double[]>();
+            hm.put((String)entry.getKey(), (double[])entry.getValue());
             distances[counter][0] = (String)entry.getKey();
             distances[counter][1] = cosine_distance(point, (double[])entry.getValue());
             counter++;
