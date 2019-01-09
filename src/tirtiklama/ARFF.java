@@ -1,11 +1,33 @@
 package tirtiklama;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.stream.Collectors;
+
+final class TrainModel{
+    public List<String> words;
+    public List<double[]> values;
+    
+    TrainModel(List<String> words, List<double[]> values){
+        this.words = words;
+        this.values = values;
+    }
+    
+    public int[] getModelSize(){
+        int[] sizes = {values.size(), values.get(0).length};
+        return sizes;
+    }
+}
 
 public class ARFF {
     private FeatureExtraction featureExtraction = null;
@@ -103,5 +125,37 @@ public class ARFF {
         
         return "{" + Arrays.stream(classes).mapToObj(String::valueOf)
         .collect(Collectors.joining(", ")) + "}";
+    }
+    
+    public static TrainModel readTrainModel(String fileName) throws Exception{
+        FileInputStream fstream = new FileInputStream(fileName);
+        BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+        String strLine;
+        List<String> wordList = new ArrayList<String>();
+        List<double[]> valueList = new ArrayList<double[]>();
+        
+        
+        //Read File Line By Line
+        while ((strLine = br.readLine()) != null)   {
+            String[] tmp_values = strLine.split(" ");
+            
+            // Read attributes
+            if(tmp_values[0].equals("@ATTRIBUTE") && !tmp_values[1].equals("class")){
+                wordList.add(tmp_values[1]);
+            }
+            
+            // Read data
+            if(tmp_values[0].equals("@DATA")){
+                while((strLine = br.readLine()) != null){
+                    valueList.add(Arrays.stream(strLine.split(", "))
+                        .mapToDouble(Double::parseDouble)
+                        .toArray());
+                }
+            }
+        }
+
+        //Close the input stream
+        fstream.close();
+        return new TrainModel(wordList, valueList);
     }
 }

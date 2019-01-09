@@ -13,8 +13,25 @@ public class TirtikLama {
     static ARFF arff = new ARFF(fe);
     static String trainDataSetPath = "dataset/train";
     static String testDataSetPath  = "dataset/test";
+    static String modelPath        = "dataset/model/textTrainModel.arff";
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
+        File  trainModelFile = new File(modelPath);
+        if(!trainModelFile.exists()){
+            System.out.println("Model Training...");
+            trainARFF(trainDataSetPath);
+            // Halihazırda eğitilmiş model yoksa eğitim yap
+            
+        }
+        // Zaten eğitilmiş bir model varsa onu kullan
+        System.out.println("Reading Trained Model");
+        TrainModel tm = ARFF.readTrainModel(modelPath);
+        for(double[] t : tm.values){
+            System.out.println(Arrays.toString(t));
+        }
+        System.out.println("Model Size: " + Arrays.toString(tm.getModelSize()));
+        
+        /*
         System.out.println("Training...");
         HashMap<String, HashMap> tr = train(trainDataSetPath);
         Iterator i =tr.entrySet().iterator();
@@ -35,9 +52,10 @@ public class TirtikLama {
             }
             System.out.println("");
         }
-        
+        */
         //showAllSimilarities(tr, ts);
     }
+    
     
     private static HashMap train(String trainDataSetPath) throws IOException{
         File folder = new File(trainDataSetPath);
@@ -99,7 +117,7 @@ public class TirtikLama {
         }
 
         arff.addTrainSet(trainSet);
-        arff.saveTrainARFF("dataset/outputs/train.arff");
+        arff.saveTrainARFF(modelPath);
         
         return trainSet;
     }
@@ -116,7 +134,7 @@ public class TirtikLama {
         }
 
         arff.addTestSet(testSet);
-        arff.saveTestARFF("dataset/outputs/test.arff");
+        arff.saveTestARFF("/dataset/outputs/test.arff");
         
         return testSet;
     }
