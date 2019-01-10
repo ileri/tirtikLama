@@ -93,7 +93,6 @@ public class KNN {
     
     public ClassifyResult classify(String name, double[] point){
         ClassifyResult cr = new ClassifyResult(name);
-        
         for(SingleTrainData t : tm.data){
             cr.add(t.name, cosine_distance(point, t.values));
         }

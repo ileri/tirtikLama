@@ -4,19 +4,25 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
+import weka.attributeSelection.PrincipalComponents;
+import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSink;
+import weka.core.converters.ConverterUtils.DataSource;
 
 public class TirtikLama {
     
-    static int K = 5;
+    static int K = 3;
     
     static FeatureExtraction fe = new FeatureExtraction();
     static ARFF arff = new ARFF(fe);
     static String trainDataSetPath = "dataset/train";
     static String testDataSetPath  = "dataset/test";
     static String modelPath        = "dataset/model/textTrainModel.arff";
+    static String modelPcaPath     = "dataset/model/textTrainModel_pca.arff";
+    static String testPath         = "dataset/model/textTest.arff";
+    static String testPcaPath      = "dataset/model/textTest_pca.arff";
     
     public static void main(String[] args) throws Exception {
         File  trainModelFile = new File(modelPath);
@@ -25,26 +31,53 @@ public class TirtikLama {
             System.out.println("Model Training...");
             trainARFF(trainDataSetPath);
         }
-        
+
+        /* // EĞİTİM SETİNE PCA UYGULAMAK İSTERSEK
+        File  trainModelPcaFile = new File(modelPcaPath);
+        if(!trainModelPcaFile.exists()){
+            // PCA uygulanmış dataseti yoksa PCA uygula
+            pca(modelPath, modelPcaPath);
+        }
+        */
+
         // Zaten eğitilmiş bir model varsa onu kullan
         System.out.println("Reading Trained Model");
         TrainModel tm = ARFF.readTrainModel(modelPath);
+        // Train Datasını Yazdır
         for(SingleTrainData t : tm.data){
             System.out.println(Arrays.toString(t.values));
         }
         System.out.println("Model Size: " + Arrays.toString(tm.getModelSize()));
         
+        
+        System.out.println(tm.getDataArray().length);
         KNN knn = new KNN(K, tm);
         
         // Test
         System.out.println("Testing...");
-        HashMap<String, HashMap> ts = test(tm, testDataSetPath);
-        Iterator testIterator = ts.entrySet().iterator();
-        while(testIterator.hasNext()){
-            Map.Entry t = (Map.Entry)testIterator.next();
-            knn.classify((String)t.getKey(), getWordValues(t)).print();
+        testARFF(tm);
+
+        double[][] testArrays = ARFF.readTestModel(testPath);
+        File folder = new File(testDataSetPath);
+        File[] listOfFiles = folder.listFiles();
+        for(int i = 0; i < testArrays.length; i++){
+            knn.classify(listOfFiles[i].getName(), testArrays[i]).print();
             System.out.println("");
         }
+        
+        
+    }
+
+    private static void pca(String fileName, String outputName) throws Exception{
+        DataSource source = new DataSource(fileName);
+        Instances trainingData = source.getDataSet();
+        trainingData.setClassIndex(trainingData.numAttributes() - 1);
+        PrincipalComponents pca = new PrincipalComponents();
+        pca.setMaximumAttributeNames(10);
+        pca.buildEvaluator(trainingData);
+        Instances yeni = pca.transformedData(trainingData);
+        yeni.setRelationName("ml");
+        DataSink.write(outputName, yeni);
     }
 
     
@@ -114,7 +147,7 @@ public class TirtikLama {
         }
 
         trainARFF(trainDataSetPath);
-        testARFF(testDataSetPath);
+        //testARFF(testDataSetPath);
     }
     
     private static HashMap[] trainARFF(String trainDataSetPath) throws IOException{
@@ -134,19 +167,22 @@ public class TirtikLama {
         return trainSet;
     }
         
-    private static HashMap[] testARFF(String testDataSetPath) throws IOException{
-        File folder = new File(testDataSetPath);
-        File[] listOfFiles = folder.listFiles();
+    private static HashMap[] testARFF(TrainModel tm) throws IOException{
+        File trainFolder = new File(trainDataSetPath);
+        File[] trainListOfFiles = trainFolder.listFiles();
         
-        HashMap[] testSet = new HashMap[listOfFiles.length];
+        File testFoler = new File(testDataSetPath);
+        File[] testListOfFiles = testFoler.listFiles();
         
-        for (int i = 0; i < listOfFiles.length; i++) {
-            HashMap<String, Double> n = new L2(new TextAnalyzer(listOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
+        HashMap[] testSet = new HashMap[testListOfFiles.length];
+        
+        for (int i = 0; i < testListOfFiles.length; i++) {
+            HashMap<String, Double> n = new L2(new TextAnalyzer(testListOfFiles[i].getAbsolutePath()).getLemmas()).normalize();
             testSet[i] = n;
         }
 
         arff.addTestSet(testSet);
-        arff.saveTestARFF(listOfFiles, "/dataset/outputs/test.arff");
+        arff.saveTestARFF(trainListOfFiles, testListOfFiles, testPath, tm);
         
         return testSet;
     }

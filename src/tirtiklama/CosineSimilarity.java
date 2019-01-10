@@ -16,6 +16,8 @@ public class CosineSimilarity {
         for(int i = 0; i < p1.length; i++){
             similarity += (p1[i] * p2[i]);
         }
+        if(similarity > 1) return 1; // round 1.000000007 like values
+        if(similarity < 0) return 0; // round -0.000000007 like values
         return similarity;
     }
     
@@ -36,7 +38,8 @@ public class CosineSimilarity {
             //System.out.printf("key: %20s\tval1: %2.15f\tval2: %2.15f\n", e.getKey(), (double)val1, (double)val2);
             similarity += (val1 * val2);
         }
-        //if(similarity > 1) return 1; // round 1.000000007 like values
+        if(similarity > 1) return 1; // round 1.000000007 like values
+        if(similarity < 0) return 0; // round -0.000000007 like values
         return similarity;
     }
     

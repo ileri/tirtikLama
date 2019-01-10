@@ -56,6 +56,14 @@ final class TrainModel{
         System.out.println("OK");
         return t;
     }
+    
+    public String[] getWordsArray(){
+        String[] wordsArray = new String[words.size()];
+        for(int i = 0; i < wordsArray.length; i++){
+            wordsArray[i] = words.get(i);
+        }
+        return wordsArray;
+    }
 }
 
 public class ARFF {
@@ -79,7 +87,7 @@ public class ARFF {
         String[] words = featureExtraction.wordsArray();
         String[] contents = new String[3 + words.length + trainSet.length ];
         int lineCounter = 0;
-        contents[lineCounter++] = "@RELATION words";
+        contents[lineCounter++] = "@RELATION ml";
         
         for(int i = 0; i < words.length; i++){
             contents[lineCounter++] = "@ATTRIBUTE " + words[i] + " NUMERIC";
@@ -95,22 +103,22 @@ public class ARFF {
        writeStringArray(contents, filePath);
     }
     
-    public void saveTestARFF(File[] listOfFiles, String filePath) throws IOException{
-        String[] words = featureExtraction.wordsArray();
+    public void saveTestARFF(File[] trainListOfFiles, File[] testListOfFiles, String filePath, TrainModel tm) throws IOException{
+        String[] words = tm.getWordsArray();
         String[] contents = new String[3 + words.length + testSet.length ];
         int lineCounter = 0;
         
-        contents[lineCounter++] = "@RELATION words";
+        contents[lineCounter++] = "@RELATION ml";
         
         for(int i = 0; i < words.length; i++){
             contents[lineCounter++] = "@ATTRIBUTE " + words[i] + " NUMERIC";
         }
-        contents[lineCounter++] = "@ATTRIBUTE class " + classAttribute(listOfFiles);
+        contents[lineCounter++] = "@ATTRIBUTE class " + classAttribute(trainListOfFiles);
         
         contents[lineCounter++] = "@DATA";
         
         for(int i = 0; i < testSet.length; i++){
-            contents[lineCounter++] = getARFFValues(testSet[i]) + ", 0";
+            contents[lineCounter++] = getTestARFFValues(testSet[i], tm) + ", " + trainListOfFiles[i].getName();
         }
         
         writeStringArray(contents, filePath);
@@ -133,6 +141,15 @@ public class ARFF {
         .collect(Collectors.joining(", "));
     }
     
+    private String getTestARFFValues(HashMap<String, Double> hashMap, TrainModel tm) {
+        String[] words = tm.getWordsArray();
+        String[] strings = new String[words.length];
+
+        for(int i = 0; i < words.length; i++){
+            strings[i] = Double.toString(hashMap.getOrDefault(words[i], 0.0));
+        }
+        return Arrays.stream(strings).collect(Collectors.joining(", "));
+    }
     
     private void writeStringArray(String[] contents, String filePath) throws IOException{
         BufferedWriter outputWriter = null;
@@ -145,10 +162,12 @@ public class ARFF {
         outputWriter.close();
     }
     
+    // TODO : Test için trainin içinden al
     private String classAttribute(File[] listOfFiles){
-        String[] classes = new String[trainSet.length];
         
-        for(int i = 0; i < trainSet.length; i++){
+        String[] classes = new String[listOfFiles.length];
+        
+        for(int i = 0; i < listOfFiles.length; i++){
             classes[i] = listOfFiles[i].getName();
         }
         
@@ -167,14 +186,15 @@ public class ARFF {
             String[] tmp_values = strLine.split(" ");
             
             // Read attributes
-            if(tmp_values[0].equals("@ATTRIBUTE") && !tmp_values[1].equals("class")){
+            if((tmp_values[0].equals("@ATTRIBUTE") && !tmp_values[1].equals("class")) || 
+                (tmp_values[0].equals("@attribute") && !tmp_values[1].equals("class"))){
                 wordList.add(tmp_values[1]);
             }
             
             // Read data
-            if(tmp_values[0].equals("@DATA")){
+            if(tmp_values[0].equals("@DATA") || tmp_values[0].equals("@data")){
                 while((strLine = br.readLine()) != null){
-                    String[] line = strLine.split(", ");
+                    String[] line = strLine.split(",");
                     
                     valueList.add(
                         new SingleTrainData(
@@ -191,4 +211,40 @@ public class ARFF {
         fstream.close();
         return new TrainModel(wordList, valueList);
     }
+    
+    public static double[][] readTestModel(String fileName) throws Exception{
+        FileInputStream fstream = new FileInputStream(fileName);
+        BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+        List<double[]> values = new ArrayList<double[]>();
+        
+        String strLine;
+        List<String> wordList = new ArrayList<String>();
+        List<SingleTrainData> valueList = new ArrayList<SingleTrainData>();
+
+        int i = 0;
+        //Read File Line By Line
+        while ((strLine = br.readLine()) != null)   {
+            String[] tmp_values = strLine.split(" ");
+
+            // Read data
+            if(tmp_values[0].equals("@DATA") || tmp_values[0].equals("@data")){
+                while((strLine = br.readLine()) != null){
+                    String[] line = strLine.split(",");
+                    values.add(Arrays.stream(Arrays.copyOfRange(line, 0, (line.length - 1)))
+                                .mapToDouble(Double::parseDouble).toArray());
+                }
+            }
+        }
+
+        //Close the input stream
+        fstream.close();
+        
+        double[][] returnArray = new double[values.size()][];
+        for(i = 0; i < values.size(); i++){
+            returnArray[i] = values.get(i);
+        }
+        
+        return returnArray;
+    }
+
 }

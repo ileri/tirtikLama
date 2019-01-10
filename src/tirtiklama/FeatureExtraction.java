@@ -1,9 +1,11 @@
 package tirtiklama;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -12,6 +14,10 @@ public class FeatureExtraction {
     private Set<String> words = new HashSet<String>();
     
     FeatureExtraction(){}
+    
+    FeatureExtraction(Set<String> words){
+        this.words = words;
+    }
     
     FeatureExtraction(HashMap<String, Double>[] hm){
         add(hm);
