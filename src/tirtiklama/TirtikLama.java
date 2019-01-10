@@ -15,10 +15,8 @@ public class TirtikLama {
     static ARFF arff = new ARFF(fe);
     static String trainDataSetPath = "dataset/train";
     static String testDataSetPath  = "dataset/test";
-    static String modelPath        = "dataset/model/textTrainModel.arff";
-    static String modelPcaPath     = "dataset/model/textTrainModel_pca.arff";
-    static String testPath         = "dataset/model/textTest.arff";
-    static String testPcaPath      = "dataset/model/textTest_pca.arff";
+    static String modelPath        = "dataset/output/textTrainModel.arff";
+    static String testPath         = "dataset/output/textTest.arff";
     
     public static void main(String[] args) throws Exception {
         File  trainModelFile = new File(modelPath);
@@ -32,11 +30,13 @@ public class TirtikLama {
         System.out.println("Reading Trained Model");
         TrainModel tm = ARFF.readTrainModel(modelPath);
         // Train Datasını Yazdır
+        
+        /* // EĞİTİM SETİNİN ÖNİZLENMESİ İSTENİRSE 
         for(SingleTrainData t : tm.data){
             System.out.println(Arrays.toString(t.values));
         }
         System.out.println("Model Size: " + Arrays.toString(tm.getModelSize()));
-        
+        */
         
         KNN knn = new KNN(K, tm);
         
