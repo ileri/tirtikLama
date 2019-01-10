@@ -53,7 +53,6 @@ final class TrainModel{
                 t[i][j] = array[j][i];
             }
         }
-        System.out.println("OK");
         return t;
     }
     
