@@ -1,0 +1,25 @@
+Kuvvet, Fizik'te kütleli bir cisme hareket kazandıran etkidir.[1] Hem yönü hem de büyüklüğü olan kuvvet vektörel bir niceliktir. Newton'un ikinci yasasına göre sabit kütleli bir cisim, üzerine uygulanan net kuvvetle doğru cismin kütlesi ile ters orantılı bir şekilde hızlanır. Bir cisme uygulanan net kuvvet cismin kazandığı momentumun zamana bağlı değişimine eşittir.[2]
+
+Üç boyutlu nesnelere uygulanan kuvvet de nesnenin dönmesine, şeklinin bozulmasına, basınçta değişime ve bazı durumlarda hacmin değişimine sebep olabilir. Bir eksen etrafında dönme hızında değişime sebep olan kuvvet eğilimine tork denir. Deformasyon(şekil değişikliği) ve basınç bir nesne dahilindeki zorlama kuvvetlerinin sonucudur.[3][4]
+
+Eski zamanlardan beri bilim insanları kuvvet kavramını durağan ve hareket eden nesnelerin araştırmalarında kullanır. M.Ö. üçüncü yüzyıl filozofu Arşimet basit makineler üzerindeki çalışmalarıyla ilerleme kaydettiyse de[5] Aristo tarafından yapılan kuvvet tanımının beraberinde getirdiği temel yanlış anlamalar yüzyıllar boyunca sürdü. On yedinci yüzyılla birlikte Sir Isaac Newton'un matematiksel içgörü ile yaptığı düzeltmeler yaklaşık üç yüz yıl boyunca değişmeden kaldı.[4] Yirminci yüzyılın başlarında Einstein, genel görelilik teorisinde uzay-zaman sürekliliği kavramıyla Newton'un kütle çekim modelinin hatasını başarılı bir şekilde öngördü.
+
+Kuvvet vektörel bir büyüklüktür. Dolayısıyla vektörlerle ilgili bütün özellikler kuvvetler içinde geçerlidir. Kuvvet "F" harfi ile gösterilir ve "dinamometre" denilen yaylı kantarla ölçülür.
+
+Kuvvet kavramı ilk olarak klasik mekaniğin ikinci hareket yasasında görülmektedir. Bir cisim üzerine etkiyen bir net kuvvet onun momentumunun değişmesine neden olur. Kuvvetin Sl birim sisteminde (uluslararası birim sistemi) birimi Newton'dur.Newton biriminin kısaltılması (N)dir.
+
+Dolayısıyla:
+
+{\displaystyle {\vec {F}}={{d{\vec {p}}} \over {dt}}} {\displaystyle {\vec {F}}={{d{\vec {p}}} \over {dt}}}
+
+Momentum p=mv ile:
+
+{\displaystyle {\vec {F}}={{dm} \over {dt}}v+m{{dv} \over {dt}}} {\displaystyle {\vec {F}}={{dm} \over {dt}}v+m{{dv} \over {dt}}} geçerlidir.
+
+Eğer kütle (m) değişmezse(mesela raketlerde değişir) {\displaystyle {{dm} \over {dt}}=0} {\displaystyle {{dm} \over {dt}}=0} olduğundan kuvvet için terimin sadece ikinci kısmı önemlidir.
+
+Kuvvet ( {\displaystyle {\vec {F}}} {\displaystyle {\vec {F}}}), kütle m, ivme de {\displaystyle {\vec {a}}} {\displaystyle {\vec {a}}} olmak üzere,
+
+{\displaystyle {\vec {F}}=m{\vec {a}}} {\displaystyle {\vec {F}}=m{\vec {a}}}
+
+şeklinde ifade edilir. Kuvvet, niteliği gereği yöneysel bir büyüklüktür, belirleyici dört unsuru vardır; başlangıç noktası, doğrultusu, şiddeti ve yönü. Birimi de Newton ya da {\displaystyle {\frac {kg\cdot m}{s^{2}}}} {\displaystyle {\frac {kg\cdot m}{s^{2}}}}'dir.

@@ -1,0 +1,197 @@
+
+Klâsik mekanik
+Dallar[göster]
+Formüller[göster]
+Temel kavramlar[göster]
+Konular[göster]
+Bilim adamları[göster]
+GTD
+Fizikte, kütle, Newton'un ikinci yasasından yararlanılarak tanımlandığında cismin herhangi bir kuvvet tarafından ivmelenmeye karşı gösterdiği dirençtir. Doğal olarak kütlesi olan bir cisim eylemsizliğe sahiptir. Kütleçekim kuramına göre, kütle kütleçekim etkileşmesinin büyüklüğünü de belirleyen bir çarpandır(parametredir) ve eşdeğerlik ilkesinden yola çıkılarak bir cismin kütlesi kütleçekimden elde edilebilir. Ama kütle ve ağırlık birbirinden farklı kavramlardır. Ağırlık cismin hangi cisim tarafından kütleçekime maruz kaldığına göre ve konumuna göre değişebilir.
+
+Aynı zamanda Einstein'ın {\displaystyle E=mc^{2}} {\displaystyle E=mc^{2}} yasasına göre kütle enerji olarak da değerlendirilebilir veya enerji kütle olarak da düşünülebilir. Bu durum ışığın kütleçekim yasasından etkilenmesinde yatan temel sebebi oluşturur. Işığın enerjisi kütle olarak da düşünülebilir ama Einstein'ın genel görelilik kuramına göre hesaplamalar yapılmaktadır ve bunlar oldukça karmaşık denklemlerdir. {\displaystyle E=mc^{2}} {\displaystyle E=mc^{2}} yasası çerçevesinde düşündüğümüzde bir gözlemci çerçevesinde enerji olarak değerlendirilen durumun, başka bir gözlemci çerçevesinde kütle olarak değerlendirilebileceği sonucuna ulaşabiliriz.
+
+Kütleyi ölçmek için kullanılan birim kilogramdır. Kütleyi doğrudan ölçmek zordur. Bu yüzden kütleyi ölçmek için eşit kollu terazi kullanılır. Ayrıca cismin ilk olarak ağırlığını yaylı kantarla ölçüp daha sonra kütlesini hesaplayabiliriz. İnsanların günlük hayattaki kullanımları düşünüldüğünde, kütle bir cismin sahip olduğu madde miktarı şeklinde de tanımlanabilir. Ayrıca yüksek enerji fiziğinde, kütle cismin durağan kabul edildiği bir sistemde kendi gözlemci çerçevesinde o cismin sahip olduğu toplam enerji şeklinde düşünülür. Ama atomaltı parçacıklar düşünüldüğünde temel parçacıkların, elektron veya kuark gibi, henüz nedeni bilinmeyen bir kütleye sahip oldukları görülür. Higgs parçacığı bu kütlenin nedeni olarak düşünülmektedir ama bu işle ilgili farklı kuramlar olmakla birlikte henüz tam olarak bu durumun nasıl olduğu açıklığa kavuşmamıştır ve güncel olarak çalışılan konulardan biridir.
+
+Kütleyi ölçmek konusunda birçok farklı görüngü vardır. Bazı teorisyenler bu görüngüleri çözmeye çalışmasına rağmen bu görüngüler(fenomenler) başka görüngüleri (fenomenleri) ortaya çıkarmıştır. Şu an denenen deneylerde aşağıdakilerden farklı olarak kütleyi ölçmenin bir yolunu bulamamışlardır:
+
+Eylemsizlik kütlesi, bir maddenin hızındaki değişimine (ivmelenmeye) gösterdiği dirençtir. Aktif kütleçekim kütlesi, kütleçekim kuvvetine sebep olan maddenin kütleçekimde sağladığı çarpanın ifadesidir. Pasif kütleçekim kütlesi, maddenin kütleçekim kuvvetinin etkisi altında kalmasına sebep olan büyüklüğüdür.
+
+Kütle-enerji ölçümünde cismin kütlesine karşılık gelen enerji {\displaystyle E=mc^{2}} {\displaystyle E=mc^{2}} formülü kullanılarak hesaplanır.
+
+Bir cismin kütlesi, cisme belli bir kuvvet uygulandığında cismin ivmesini bulmamıza yardım eder. Bu görüngü eylemsizlik olarak adlandırılır. Newton’un ikinci yasasına göre, eğer herhangi bir cismin kütlesine {\displaystyle m} {\displaystyle m}, cisme uygulanan kuvvete {\displaystyle F} {\displaystyle F}, ivmesini de {\displaystyle a} a olarak ele alırsak {\displaystyle a=F/m} {\displaystyle a=F/m} olarak hesaplama yapabiliriz. Bir cismin kütlesi o cismin kütleçekim alanından ne kadar etkileneceğini belirler. Eğer ilk cismin kütlesine {\displaystyle m_{a}} {\displaystyle m_{a}}, ikinci cismin kütlesine {\displaystyle m_{b}} {\displaystyle m_{b}}, iki cismin merkezleri arasındaki uzaklığa da {\displaystyle r} {\displaystyle r} dersek iki cisim arasındaki çekim kuvvetini (F), Fg = Gmamb/r2 formülünü kullanarak hesaplayabiliriz ( {\displaystyle G=6.67\times 10^{-11}Nm^{2}kg^{-2}} {\displaystyle G=6.67\times 10^{-11}Nm^{2}kg^{-2}},kütleçekim sabiti). 17. yüzyıldan beri yapılan deneylerde kütleçekim kütlesi ve eylemsizlik kütlesi arasında bir fark bulunamamıştır. Bu deneylerde en yüksek hassasiyet {\displaystyle 5\times 10^{-14}} {\displaystyle 5\times 10^{-14}} düzeyindedir, başka bir deyişle {\displaystyle 10^{14}} {\displaystyle 10^{14}} de 5 seviyesine kadar kütleçekim kütlesi ve eylemsizlik kütlesi aynıdır.
+
+
+İçindekiler
+1	Kütle Birimleri
+2	Kütle Tanımları
+3	Kütle ve Ağırlık
+4	Eylemsizlik ve Kütleçekim Kütlesi
+5	Kütle-Hız Değişimi
+6	Kütlenin Kökeni
+7	Newton Öncesi Kavramlar
+7.1	Madde miktarı olarak kütle
+7.2	Gezegensel Hareket
+7.3	Galileo Serbest Düşmesi
+8	Newton mekaniğinde kütle
+8.1	Newton'un Top Mermisi
+8.2	Evrensel Kütle
+8.3	Eylemsizlik Kütlesi
+9	Atomik Kütle
+10	Ayrıca bakınız
+Kütle Birimleri
+
+Kilogram, Uluslararası Birim Sisteminde, 7 temel birimden biridir.
+Kütlenin birimi Uluslararası Birimler Sistemine (SI) göre kilogramdır. Bu ilk kez 1795’te donma noktasındaki bir santimetreküp su ile belirlenmiştir. Sonra 1889’da tekrar tanımlanmıştır. Daha sonra belirlenen bir örnek üzerinden yeniden tanımlamaya gidilmiştir. 2013'te Plank sabiti cinsinden yeniden hesaplanmasına yönelik bir öneri getirilmiştir.
+
+SI sisteminde diğer birimler:
+
+Bir ton bin kilograma eşittir.
+Enerji birimi olan elektronvolt (eV) kütle-enerji formülünü uygulayarak kolayca kütleye çevrilebilir. Elektronvolt parçacık fiziğinde yaygın olarak kullanılır.
+Atomik kütle birimi (u), karbon-12 atomu kütlesinin 1/12’sine eşittir, yaklaşık olarak 1,66 x 10−27kg’dır. Atomların ve moleküllerin kütlelerini bulmakta yardımcı olur.
+Slug bir İngiliz ölçü birimidir. Yaklaşık 14,6 kilogramdır.
+Pound hem kütle hem kuvvet birimidir. Genellikle Amerika’da kullanılır. Yaklaşık 0,45 kg ya da 4,5 Newton’dur.
+Planck kütlesi bir parçacığın alabileceği en yüksek kütledir. Yaklaşık 2,18×10−8 kilogramdır. Genellikle parçacık fiziğinde kullanılır.
+Çok büyük yıldızların, kara deliklerin kütlesini tanımlamak için cisimlerin Schwarzschild yarıçapınının kullanıldığı durumlar vardır. (1 cm ≈ 6,73×1024kg)
+Kütle Tanımları
+Fizik biliminde, yedi temel kütle kavramı vardır:
+
+Belirli türlerdeki madde miktarı ürünlenimle yığma yöntemi ya da başka bir yöntemle tam olarak tespit edilebilir. Bir maddenin kütlesi o maddenin içerdiği atom ve moleküllerin içerdiği bağların kopma ya da birleşme enerjisi ile bulunabilir.
+Bir cismin eylemsizlik kütlesi, o cismin ivmelenmeye karşı gösterdiği dirençtir. Kuvveti ve ivmeyi biliyorsak eylemsizlik kuvvetini hesaplayabiliriz. Aynı kuvvet uygulandığında küçük kütleli cisimler büyük kütleli cisimlere göre daha büyük bir ivmelenmede bulunacaklardır. Büyük kütleli cisimler büyük eylemsizliğe sahiplerdir.
+Aktif kütleçekim kütlesi, maddenin kütleçekimsel alanının bir ölçüsüdür. Kütleçekim alanını, bir nesnenin serbest düşmesine izin verip ivmesini ölçerek hesaplayabiliriz. Örneğin, Ay’ın yüzeyinde serbest düşme yapan bir cismin ivmesi, Dünya’nın üzerinde serbest düşme yapan bir cismin ivmesinden küçüktür. Ay’daki kütleçekim alanının daha az olmasının sebebi Ay’ın kütleçekim kütlesinin daha az olmasından kaynaklanır.
+Pasif kütleçekim kütlesi, maddenin kütleçekim alanıyla etkileşime giren ve ivmelenmeye maruz kalan büyüklüktür.
+Kütle enerji eşitliğine göre enerji de kütle olarak düşünülebilir. Bu eşitlik ışığın kütleçekim ile bükülmesi, nükleer füzyon, parçacık-antiparçacık oluşumunu içeren yüksek enerjili fiziksel süreçlerle ispatlanmıştır. Nükleer füzyon ve parçacık-antiparçacık oluşumu deneyleri enerji ve kütlenin birbirleri arasında dönüşümünü de gösterir. Işığın kütleçekim ile bükülmesi olayında, saf enerjili fotonlar pasif kütleçekim kütlesine sahip gibi davranırlar.
+Uzay zamanının eğriliği mevcut kütlenin göreceliğinin bir bulgusudur. Bu eğiklik oldukça küçüktür ve ölçülmesi çok zordur. Bu yüzden, Einstein genel görelilik kuramını açıklayana kadar keşfedilemedi. Dünyanın yüzeyindeki aşırı hassas atomik saatler zamanı uzayda sabitlenmiş saatlerden daha yavaş ölçer. Zamanın eğriliğinden dolayı her geçen süre zamanın genişlemesine yer çekimsel zaman genişlemesi denir.
+Cismin kuantum kütlesi frekansının ve dalga boyunun arasındaki farkı gösterir. Bir elektronun kuantum kütlesi, Compton dalga boyu, spektroskopisinin çeşitli formları aracılığıyla belirlenebilir ve Rydberg sabiti, Bohr yarıçapı ve klasik elektron çapı ile yakından bağlantılıdır. Daha büyük cisimlerin kuantum kütleleri direkt olarak watt dengesi yöntemi kullanılarak ölçülebilir. Göreceli kuantum mekaniğinde kütle, Poincaré grubunun indirgenemez temsili etiketidir.
+Kütle ve Ağırlık
+Ayrıca bakınız: Kütle ve Ağırlık
+Kütle, kilogram cinsinden ölçülebilen ve maddenin miktarı veya enerjisi ile ilgili bir büyüklüktür. Ağırlık ise kütleye etki eden kuvvetin büyüklüğüdür. Kütlenin birimi kilogramken, ağırlığın birimi kuvvet olduğu için Newton'dur.
+
+Günlük kullanımda kütle ve ağırlık sıklıkla karıştırabilmektedir. Örneğin bir kişinin ağırlığı 75 kg olarak ifade edilebilir. Sabit bir kütleçekim alanında, bir nesnenin ağırlığı kütlesi ile orantılıdır ve bu iki kavram için aynı birimi kullanmak sorunsuz görülebilir ama Dünya’nın şeklinden dolayı, farklı yerlerinde kütleçekim alanındaki farklılıklardan dolayı bu ayrım, yaptığımız ölçümlerde tutarlılık sağlamamız için çok önemlidir. Sonuç olarak kütle(kilogram olarak ölçülen), bir nesnenin içsel bir özelliği anlamına gelirken, ağırlık(Newton cinsinden ölçülen), kütleçekim alanından etkilenip serbest düşmede kendi doğal seyrini yapan bir cismin kütleçekim alanından ne kadar etkilendiğini ölçer. Kütleçekim alanı ne kadar gücü olursa olsun, serbest düşmede cisimler cisimle beraber hareket eden bir gözlemci çerçevesinde ağırlıksızdır.
+
+Ağırlık denilen kuvvetse, kütleye ve ona etki eden kütleçekim alanına bağlıdır. Örnek olarak, kütleçekim alanından dolayı meydana gelen serbest düşmeye maruz kalan bir cisim, sabit bir durumda olsa bile, bu kuvvet tarafından ivmelenmek isteyecektir ve bu da tartıda ölçüm yapabilmemizi sağlar. Etki eden kuvvet kullanılarak tartının göstergesinde kilogram ölçeğinde bu kuvvetin karşılık geleceği madde miktarı ölçülür. Dünya üzerinde kutuplarda ve ekvatorda aynı tartıda aynı insan tartının üzerine çıktığında farklı kilogram değerleri gözlemlenebilir, bu fark 70kglık bir insan için 1.5 kg civarındadır.
+
+Ağırlık serbest düşme gibi durumlarda etken güçtür ve cisim bundan dolayı ivmelenmeye maruz kalır. Örneğin dünya üzerinde 50 kilogram kütleli bir nesne 491 Newton ağırlığa sahiptir. Bu da cisme serbest düşme sırasında etki eden kuvvettir. Aynı nesneyi Ay’ın yüzeyinde incelediğimizde kütlesi yine 50 kilogramdır fakat ağırlığı 81,5 Newton’dur. Çünkü Ay'ın oluşturduğu kütleçekim alanı, Dünya'nın oluşturduğu kütleçekim alanından zayıftır. Matematiksel olarak Dünya’nın yüzeyine yerleştirilmiş bir cismin ağırlığını W, kütlesini m, olarak kabul edersek W=mg formülünü kullanarak Dünya’nın yerçekimi ivmesini g=9,80665 olarak hesaplarız. Mekanik ivmelerin etkili olduğu diğer durumlarda da olduğu gibi kütle ile ivmenin çarpımı cisme etki eden net kuvveti verir. Asansörlerde, araçlarda, merkezcil kuvvetlerde ve benzeri mekanizmalarda(yüzeyden yukarı çıkan) yerçekimi etkilerine karşı direnç olduğu açıkça görülebilir. Bu direnç de maddenin eylemsizliği ile ilgilidir. Bu gibi durumlarda cismin w ağırlığı için W= -ma denklemini kullanabiliriz.
+
+Kütle maddeyle ilişkilidir; ama madde tanımı kütleden farklı olarak bilimde yetersizdir. Atomaltı ölçekte, sadece fermiyonlar değil aynı zamanda kuvvet taşıyıcı bozonlar da kütleye sahip olabilir. Sıradan bir maddenin durgun kütlesi değişmez kütle olarak tanımlanır. Özel görelilikte bazı durumlarda kütlenin hıza göre değişen bir özelliği varmış gibi anlatılabilir. Ama bu ölçümlenebilen bir olgu olmadığı ve enerji ve durgun kütleden türetildiği için artık birçok yerde kullanımından vazgeçilmiş bir tanımlamadır. Standart Model Parçacık Fiziğinde, kütle bazı modellerde temel parçacıklar için Higgs alanı olarak bilinen alan için ortaya çıkan bir özellik olarak tanımlanır. Gözlemlenebilir evrenin toplam kütlesinin bazı modellerde 1052kg ve 1053 kg arasında olduğu tahmin edilmektedir, bu da 1079 ve 1080 arasında protonun durağan kütlesine karşılık gelmektedir.
+
+Eylemsizlik ve Kütleçekim Kütlesi
+Eylemsizlik kütlesi, pasif ve aktif kütleçekim kütleleri ile kavramsal olarak farklı olmasına rağmen, bugüne kadar hiçbir deney açık bir şekilde, aralarında bir fark gösterememiştir. Klasik mekanikte Newton’un 3. Yasası aktif ve pasif kütleçekim kütlesinin çok yakın ya da eşit olacağını açıklayabiliyor, ama klasik kuram, kütleçekim kütleleri ile eylemsizlik kütlesinin neden eşit olabileceği ile ilgili zorlayıcı bir sebep sunmuyor. Öyle ki sadece deneysel bir gerçektir.
+
+Albert Einstein, eylemsizlik ve (pasif) kütleçekim kütlesi arasındaki bu uyuşmaların kaza sonucu olmadığı varsayarak genel görelilik kuramını geliştirmeye başladı: hiçbir deney aralarındaki farkı tespit edemez(denklik ilkesinin zayıf tarafı). Ortaya çıkan kuram, kütleçekimin sonucunun bir kuvvet olmadığını ve bu yüzden de Newton’un üçüncü yasasına bağlı olmayacağını ileri sürer. Ama bu kuramın içerisine Newton'un tanımladığı kütleçekim etkileşimi, genel göreliliğin zayıf alandaki limitinin Newton'un tanımladığı etkileşim olması gerekliliği ile elle dahil edilmiştir.
+
+Eylemsizlik ve kütleçekim kütlelerinin eşitliği bazen “Galileo’nun Eşdeğerlik İlkesi” ya da “zayıf eşdeğerlik ilkesi” olarak atfedilir. Bu denklik ilkesinin en önemli sonucu, serbest düşen nesneler için geçerlidir. Eylemsizlik ve kütleçekim kütlelerini sırasıyla m ve M olarak varsayalım. Eğer cisme yalnızca kütleçekim alanı {\displaystyle g} {\displaystyle g}'nin uyguladığı bir kuvvet etki ediyorsa, Newton’un ikinci yasasının, kütleçekim Kanunuyla birleştirirsek:
+
+{\displaystyle {\boldsymbol {a}}={\frac {M}{m}}{\boldsymbol {g}}} {\displaystyle {\boldsymbol {a}}={\frac {M}{m}}{\boldsymbol {g}}}
+denklemini elde ederiz. Eğer herhangi bir cisim, sabit bir kütleçekim alanına maruz kalıyorsa, bu cismin yerçekimsel kütlesi ile eylemsizlik kütlesinin oranı K’dir ve sabittir. Bu olgu “serbest düşme evrenselliği” olarak adlandırılır. Serbest düşmenin evrenselliğini gösteren ilk deneyler Galileo tarafından yapılmıştır. Galileo, genellikle, Pisa kulesinden nesneleri bırakarak sonuçları incelediği düşünülür. Ama bunun büyük olasılıkla bir uydurma olduğunu; aslında sürtünmesiz bir eğik düzlemde topları serbest bırakarak zamanlamaları incelediği yönünde deliller vardır. Bu eşdeğerlikle ilgili deneyler, 1889’da Loránd Eötvös’ün torsiyon denge sarkacını kullanarak yaptığı deneyle başlayan ve giderek hassaslaşan bir sürece girmiştir. 2008 yılı itibarıyla, evrenselliğinde ya da Galileo’nun eşitliklerinde 10−14 hassasiyetinden büyük hiçbir sapma belirtilmemiştir. Daha hassas deneylerin çalışmaları hala yürütülmektedir.
+
+Kütleçekiminin evrenselliği sadece kütleçekiminin cisme etkiyen tek kuvvet olması durumunda geçerlidir. Cisme etkiyen sürtünme ve hava direnci gibi diğer kuvvetler olmamalı ya da ihmal edilebilir olmalıdır. Örneğin, hava sürtünmesinin olmadığını varsayarsak, bir çekiç ile bir tüy, Dünya’nın yüzeyinden eşit uzaklıkta ve aynı anda serbest düşmeye bırakıldıklarında, iki cisminde yere düşene kadar havada geçirdiği zaman kesinlikle eşit olacaktır. Bu deneydeki ortam, lise laboratuvarlarında, bir şeffaf fanusun havasının vakum pompasıyla alınması ile sağlanabilir. Daha sonra nesneleri bırakarak deney tamamlanabilir. Bu deney David Scott’ın Apollo 15 uçuşu sırasında, Ay’ın yüzeyinde yaptığı gibi, doğal olarak havasız olan ortamlarda yapıldığında daha çarpıcı sonuçlar verir. Denklik ilkesinin daha güçlü bir sürümü, Einstein’ın eşitlik denkliği ya da güçlü eşitlik denkliği olarak bilinir. Bu denklik uzay-zamanın yeteri kadar küçük bölgelerinde geçerlidir. Sabit bir ivmelenmeyle, kütleçekim alanını birbirinden ayrımsamanın yeterince küçük uzay-zaman aralığında mümkün olmadığı düşünülür. Bu yüzden, bu kuram, bir cismin, kütleçekim alanı tarafından bir kuvvete maruz kalmasının sonucunda cismin düz bir çizgi üzerinde hareket etme eğilimi oluşturur ve bu nedenle eylemsizlik kütlesinin bir fonksiyonunun, kütleçekim alanının gücü olduğunu öne sürer.
+
+Kütle-Hız Değişimi
+Kuantum mekaniğine göre hızı artan bir cismin kütlesi de artmaktadır. Fakat bu değişim küçük hızlarda ihmal edilebilecek kadar azdır. bu değişim aşağıdaki formül ile hesaplanır:
+{\displaystyle m={\frac {m_{0}}{\sqrt {1-(v^{2}/c^{2})}}}} {\displaystyle m={\frac {m_{0}}{\sqrt {1-(v^{2}/c^{2})}}}}
+Burada {\displaystyle m} {\displaystyle m}: Kütle değişimini, {\displaystyle m_{0}} {\displaystyle m_{0}}: İlk kütleyi, {\displaystyle v} {\displaystyle v}: Cismin hızını, {\displaystyle c} {\displaystyle c}: ışık hızını temsil eder.
+
+Kütlenin Kökeni
+Kuramsal fizikte, kütle oluşturma mekanizması, fiziğin en temel yasalarından gelen kütlenin kökenini açıklamaya çalışan bir kuramdır. Bugüne kadar kütlenin kökeni ile ilgili farklı modeller önerilmiştir. Kütle kavramı güçlü bir şekilde kütleçekim etkileşimi ile ilişkilidir. Fakat henüz parçacık fiziğinin kabul gören modeli olan standart modelle bağdaştırılabilen bir kuram geliştirilemedi.
+
+Newton Öncesi Kavramlar
+Madde miktarı olarak kütle
+Weighing of the heart3.jpg
+Kütle madde miktarı olarak da değerlendirilebilen bir kavramdır, ama bu günümüzde kullanılan bilimsel tanım değildir. Miktar kavramı çok eski ve kayıtlı geçmişten daha öncedir. İlk çağlarda insanlar, yakın ağırlıktaki cisimlerin bir araya getirilmesinden oluşan ağırlığın, cisimlerin sayısı ile doğru orantılı olduğunu fark etti: bir araya getirilen benzer her bir cismin ağırlığı W, bir araya getirilen cisimlerin sayısı n veya m ise, orantılılık tanımı gereği, iki değerin sabit bir orana sahip olduğu anlamına gelir.
+
+{\displaystyle {\frac {W_{n}}{n}}={\frac {W_{m}}{m}}} {\displaystyle {\frac {W_{n}}{n}}={\frac {W_{m}}{m}}}, ya da eşit bir biçimde {\displaystyle {\frac {W_{n}}{W_{m}}}={\frac {n}{m}}.} {\displaystyle {\frac {W_{n}}{W_{m}}}={\frac {n}{m}}.},
+Bu ilişki kısaca bir araya getirilmiş n tane cismin toplam ağırlığı {\displaystyle W_{n}} {\displaystyle W_{n}}in n bölümünün ve bir araya getirilmiş m tane cismin toplam ağırlığı {\displaystyle W_{m}} {\displaystyle W_{m}}in m bölümünün aynı sonucu vermesi yani bir araya getirilen her bir cismin ağırlığı olan {\displaystyle W} {\displaystyle W}'nun elde edilmesinden yola çıkılarak yazılmış bir ilişkidir.
+
+Bu ilişkinin önceki kullanım türlerinden biri de dengeli terazidir. Dengeli terazide denge, bir nesnenin ağırlığının kuvvetine karşı, başka bir nesnenin ağırlığının kuvveti ile kurulur. Bu terazinin kollarına etki eden kütleçekim alanları oldukça yakındır. Dolayısıyla, eğer aynı kütleye sahip cisimlerin ağırlıklarını ölçersek, cisimlerin kütlelerini kıyaslamış oluruz. Sonuç olarak, tarihsel ağırlık standartları genellikle miktarları açısından tanımlanmıştır. Örneğin Hintler ve Romalılar, bir ölçüm standardı olarak küçük ağırlıklarlar için keçiboynuzu tohumu(karat veya siliqua) kullanırlardı. Keçiboynuzu tohumu ile ölçülen kütleler genelde elmas gibi değerli mallardı. Eğer bir nesnenin ağırlığı 1728 keçiboynuzu tohumuna eşdeğer olsaydı, nesnenin bir Roma poundu ettiğini söylerlerdi. Başka bir şekilde, eğer nesnenin ağırlığı 144 keçiboynuzu tohumuna eşit olsaydı, nesnenin ağırlığı bir ons(uncia) olacaktı. Roma poundu ve onsu farklı kütlelerdeki cisimleri belirtmek için kullanılmıştır.
+
+{\displaystyle {\frac {ounce}{pound}}={\frac {W_{144}}{W_{1728}}}={\frac {144}{1728}}={\frac {1}{12}}.} {\displaystyle {\frac {ounce}{pound}}={\frac {W_{144}}{W_{1728}}}={\frac {144}{1728}}={\frac {1}{12}}.}
+Gezegensel Hareket
+Ayrıca bakınız: Kepler yasaları
+Milattan sonra 1600 yılında, Johannas Kepler, en hassas astronomik verilerin bazılarına sahip olan Tycho Brahe’nin yanına çalışmaya başladı. Brahe'nin hassas Mars gezegeni gözlemlerini kullanarak, Kepler, gezegensel hareketi karakterize etmek için kendi yöntemini geliştirmek adına 5 yıl çalıştı. 1609’da Kepler, gezegenlerin Güneş etrafındaki hareketini açıklayan üç yasa yayınladı. Kepler son hareket modelinde, gezegenlerin, merkezinin birinde Güneş olduğu eliptik bir yörünge etrafında nasıl hareket ettiklerini açıkladı. Kepler bir gezegenin yörüngesinin karesiyle, gezegenin yarı-büyük ekseninin küpü doğru orantılıdır ya da eşdeğerdir ve bu iki değerin oranı Güneş Sistemi’ndeki tüm gezegenler için sabittir şeklindeki üçüncü yasasını yayınlayarak bu hareketi açıklayacak en önemli adımlardan birini attı.
+
+25 Ağustos 1906’da Galileo Galilei, Venedikli tüccar bir gruba ilk teleskobunu gösterdi ve Ocak 1610’un öncesinde Galileo, Jüpiter'in etrafında yıldızlara benzer ama çıplak gözle görülemeyen nesneler gözlemledi. Ancak gözlemlerinden birkaç gün sonra Galileo, bu “yıldızların” Jüpiter’in yörüngesinde olduğunu fark etti. Bu dört nesne(Keşfinin onuruna Galile uyduları olarak adlandırılır) Dünya'dan gözlenen ama Dünya’nın ve Güneş’in yörüngesi dışında başka bir yörünge etrafında döndüğü fark edilen ilk cisimlerdir. Galileo, sonraki on sekiz ay içinde bu uydularını gözlemeye devam etti ve 1611’in ortalarında uyduların devirlerinin zamanı hakkında tahminlerde bulundu. Bu tahminler belli bir hassayite kadar doğru olmasına rağmen Jüpiter ve Dünya arasındaki uzaklığın değişmesinden dolayı bir miktar hata payı barındırıyordu. Daha sonra Romer tarafından bu durum, Jüpiter ile Dünya'nın arasındaki uzaklığın değişmesi, kullanılarak ilk defa ışığın hızı hesaplandı. Bu hesap 26% lik hata payı içeriyordu ama zamanına göre yapılmış en iyi hesaptı ve Romer ışık hızını 220000 km/s (saniyede 220 bin kilometre) olarak hesaplamıştı.
+
+Galileo Serbest Düşmesi
+
+Galileo Galilei 1636
+
+Bir topun, serbest düşme esnasındaki eşit zaman aralıklarında olan yer değiştirmesi.
+1630'lu yıllarda Galileo serbest düşme hareketi üzerinde çalışmaya başladı. Galileo Dünya'nın yerçekimi alanını araştıran ilk bilim insanı olmamasına rağmen, yerçekiminin temel özelliklerini doğru bir şekilde açıklayan ilk bilim insanıydı. Bunun yanı sıra, bu hesabı yaparken Galileo’nun fiziksel ilkeleri oluşturmak için bilimsel deneylere olan güveni gelecek nesillerdeki bilim insanları üzerinde önemli bir etkiye sahip olacaktı. Galieo eğik düzlem üzerinde deneyler yapmıştı ama Galileo’nun öğrencisi olan Vincenzo Viviani tarafından yazılan biyografide, Galileo’nun maddelerin düşme zamanlarının kütlelerinden bağımsız olduğunu göstermek için eğik Pisa Kulesinden aynı maddeden yapılmış ama kütleleri farklı toplar bıraktığını belirtti. (Pisa kulesinde yapılan deneyin Galileo sonrasında yaşamış bir keşiş olduğuna dair bilimsel metinler vardır.) Galileo kütleleri farklı olan iki cisim birbirine bağlanırsa, kütlesi daha çok olan karmaşık olan sistemin hafif olan sistemden önce düşüp düşmeyeceği şeklindeki soruya bütün cisimlerin aynı anda düşeceği şeklinde cevap vermiş oldu.
+
+Bir sonraki deney, 1638 yılında yayınlanan Galileo’nun İki Yeni Bilimler (Two New Sciences) kitabında tanımlanmıştır. Galileo’nun kitabında geçen hayali karakterlerinden biri olan Salviati, bir bronz top ve ahşap bir rampa kullanılan bir deney anlatmaktadır. Ahşap rampada; düz, pürüzsüz, cilalı kanal şeklinde bir boşluk vardı ve 12,5 arşından üç parmak daha kalındı. Bu boşluk aynı zamanda yumuşak ve mümkün olduğunca cilalanmış parşömen ile kaplıydı. Bu boşluğun içine sert pürüzsüz ve yuvarlak bronz bir top yerleştirildi. İvmeyi yeterince düşürebilmek ve hesaplayabilmek için çeşitli rampa çeşitli eğimlerde yerleştirildi. Bronz top, uzunluğu bilinen yolda ilerlemesi için serbest bırakıldı ve rampanın alt ucuna kadar geçen süre kaydedildi. Zaman aşağıda tarif edilen bir saat kullanılarak ölçüldü:
+
+Yüksek bir konumda bulunan büyük bir su teknesinin altından küçük bir delik açılır ve bir düzenek sayesinde sürekli olarak su damlatılır. Düşen damlalar bir bardakta toplanır. Bu bardak her düşüşten sonra hassas bir tartı ile tartılır. Su sabit bir kütlede damlayacağı için ve her aralık birbiriyle eş olacağı için, küçük bir denklem yardımıyla zamanı ölçebiliriz.
+Galileo serbest düşen bir nesnenin, yerdeğiştirişinin, geçen sürenin karesiyle doğru orantılı olduğunu buldu:
+
+{\displaystyle {\text{Yerdeğiştiriş}}\propto {{\text{Zaman}}^{2}}} {\displaystyle {\text{Yerdeğiştiriş}}\propto {{\text{Zaman}}^{2}}}
+Galileo serbest düşme yapan bir cismin, Dünya'nın yerçekimi kuvvetinin etkisi altında olduğunu göstermişti, Johannes Kepler ise gezegenlerin güneşin kütle çekim kuvvetinin etkisi altında eliptik yollarını takip ettiğini göstermişti. Ancak Galileo’nun serbest düşme hareketleri ve Kepler'in gezegen hareketleri Galileo’nun ömrü boyunca ayrı kaldılar. Bu iki konu daha Newton'un çalışmalarıyla bir araya getirilecekti.
+
+Newton mekaniğinde kütle
+
+Isaac Newton 1689
+Ay	Dünya'nın kütlesi
+Yarı-büyük eksen	Yıldızsal orbital periyot
+0.002 569 AU	0.074 802 Yıldızsal yıl	{\displaystyle 1.2\pi ^{2}\cdot 10^{-5}{\frac {{\text{AU}}^{3}}{{\text{y}}^{2}}}=3.986\cdot 10^{14}{\frac {{\text{m}}^{3}}{{\text{s}}^{2}}}} {\displaystyle 1.2\pi ^{2}\cdot 10^{-5}{\frac {{\text{AU}}^{3}}{{\text{y}}^{2}}}=3.986\cdot 10^{14}{\frac {{\text{m}}^{3}}{{\text{s}}^{2}}}}
+Dünya'nın kütleçekimi	Dünya'nın yarıçapı
+9.806 65 m/s2	6 375 km
+Robert Hooke 1674 yılında kütleçekim kuvvetleri ile ilgili düşüncelerini yayınladı. Bu yayında, bütün astronomik objelerin merkezlerine doğru bir kütleçekime sahip olduğunu belirtiyordu ve bu objelerin etraflarındaki bütün objeleri çektiğini belirtiyordu. Bunun yanı sıra, bu kütleçekimin şiddetinin objenin merkezine yaklaştıkça arttığını belirtiyordu. Newton ile fikir alışverişlerinde Hooke kütleçekimin iki cismin arasındaki mesafe arttığında aralarındaki mesafenin iki katına göre azaldığını da belirtiyordu. Hooke'un bu düşüncesi sonsuz küçük matematiğini (calculus) icat eden Newton'u harekete geçirdi ve Newton Kepler orbitlerini inceleyerek Hooke'un düşüncesinin doğru olup olmadığını anlamak üzere hesap yapmaya başladı. Newton'un hesaplamaları Hooke'un düşüncesinin doğru olduğu yönündeydi ama Newton bu sonuçları uzun bir süre saklı tuttu. 1684 yılında Newton hesaplarından Edmond Halley'e bahsetti ve Halley onu hesaplarını yayınlaması gerektiğine ikna etti. Halley tarafından cesaretlendirilen Newton, 1684 Kasım'ında çalışmalarını "De motu corporum in gyrum" (Orbit hareketi yapan cisimler üzerine) başlığıyla Halley ile paylaştı. Halley Newton'un çalışmalarını Kraliyet Akademisi (Royal Society)'ye sundu. Newton sonra çalışmalarını "Philosophiæ Naturalis Principia Mathematica" (doğa felsefesinin matematiksel ilkeleri) başlığıyla üç kitaplık bir set halinde yayınladı. Kraliyet Akademisi 1686 yılında Newton'un çalışmalarını yayınladı.
+
+Newton, Kepler'in kütleçekimsel kütle ve Galileo'nun kütleçekimsel ivme kavramları arasındaki boşluğu dolduran
+
+{\displaystyle \mathbf {g} =-\mu {\frac {\hat {\mathbf {R} }}{|\mathbf {R} |^{2}}}} {\displaystyle \mathbf {g} =-\mu {\frac {\hat {\mathbf {R} }}{|\mathbf {R} |^{2}}}}
+bağıntıyı ispatladı. Bu denklemde g kütleçekimden etkilenen cismin gözlemlenen ivmesine, μ kütleçekime sebep olan cismin kütleçekimsel kütlesine ve R etkileşimde bulunan iki cismin merkezleri arasındaki uzunluğa karşılık gelmektedir.
+
+Bu ilişkiyi, cismin kütlesi ve cismin kütleçekimin sebep olduğu ivme arasındaki ilişki, bularak Newton, kütleçekimsel kütlenin hesaplanması için yeni bir yöntem daha geliştirmiş oldu. Dünya'nın kütlesi Ay'ın hareketinden yola çıkılarak Keplerin metodu sayesinde, veya Dünya'nın yüzeyindeki kütleçekimsel ivmenin hesaplanması bunun Dünya'nın yarıçapının karesi ile çarpılması sayesinde bulunabileceğini gösterdi. Dünya'nın kütlesi Güneş'in kütlesinin üç milyonda biri kadardır.
+
+Newton'un Top Mermisi
+
+Yüksek bir dağdan atılan top mermisi. Eğer hızı düşükse, Dünya’ya çarpar. (A,B). Çok yüksek hızlarda, Dünya’nın etrafında eliptik bir yörünge izleyecektir(C,D). Eğer hızı, top mermisinin Dünya'nın çekim kuvvetine eşit olan enerjiden daha büyük bir enerjiye sahip olmasına yetecek düzeydeyse, top mermisi Dünya’nın kütleçekim alanından kurtulacaktır(E). (Kritik hız herhangi bir cismin kütleçekim alanından dolayı oluşacak enerjiye eşit olan enerjiye sahip olmasını sağlayacak hızdır. Eğer herhangi bir cisim bu hızdan daha büyük bir hızla kütleçekim alanına sebep olan cisimden uzağa doğru fırlatılırsa cisim kütleçekim alanından kurtulacaktır.)
+Newton'un Top Mermisi, Galileo'nun kütleçekim ivmesi ve Kepler'in eliptik yörüngeleri arasında köprü olan bir düşünce deneyi olmuştur. Bu ilk kez Newton'un 1728’de yayınlanan kitabında (Dünya Sistemi Üzerine Bir İnceleme) yayınlandı. Galileo’nun düşüncesine göre, bir taş Dünya’ya doğru sabit bir ivmeyle düşer. Ancak Newton taşı yere yatay (kütleçekim ivmesine dik) olarak atıldığında, taş kavisli bir yol izler. Taşı ne kadar hızlı atarsak Dünya üzerinde o kadar çok yol kat eder. Eğer taşı bir dağ üzerinden yeteri kadar hızlı bir şekilde atılabilseydi, taş yine aynı eğriyi çizecekti fakat eğer uygun hızla atılmışsa bu sefer eğri taşın atıldığı yere Dünya'nın etrafını dolaşarak ulaşmasını sağlayacak şekilde olacaktı.
+
+Evrensel Kütle
+
+Elma aslında Dünya’nın her bir noktasındaki kütleler tarafından çekilmektedir. Fakat bu kütlelerin oluşturduğu kuvvetlerin bileşkesi elmayı Dünya’nın merkezine doğru çeken tek bir kuvvete eşit olacaktır.
+Önceki teoriler göklerin tamamen farklı malzemeden yapılmış olduğunu belirtirken, Newton’un kütleçekim kuramı çığır açıcı bir etki yarattı çünkü evrensel kütle çekimini tanımladı: Her nesne kütleçekimsel kütleye sahiptir ve bu nedenle, her nesne bir kütleçekim alanı oluşturur. Newton iki madde arasındaki kütleçekim alanının, iki maddenin arasındaki uzaklığın karesiyle ters orantılı olacağı varsayımında bulundu. (Külteçekim alanı {\displaystyle \propto } {\displaystyle \propto }1/r2, r:aradaki uzaklık.) Newton akla yatkın varsayımlarda bulunarak, küçük cisimlerden oluşturulmuş dev bir küresel cismin ortalama kütleçekim alanını hesaplamıştır. Newton çok büyük küresel cisimlerin kütleçekim alanının, cismin kütlesiyle doğru orantılı ve cismin merkezine olan uzaklığın karesi ile ters orantılı olduğunu buldu.
+
+Newton’un evrensel kütleçekim kuramına göre, her cisim, mesela her keçiboynuzu tohumu bir kütleçekim alanı üretir. Yani keçiboynuzu tohumları ile bir küre yapılmak istenseydi bu kürenin (Dünya’nın ve Güneş'inki gibi) kütleçekim alanı, kürenin bulundurduğu keçiboynuzu tohumu sayısı ile doğru orantılı olacaktır. Sonuç olarak, yeterli bilgiye sahipsek, kürenin içinde bulunan keçiboynuzu tohumlarının tam sayısını kuramsal olarak bulabilmemiz mümkündür. Birim dönüşümlerini kullanmak bu hesaplamalarda kullanılan basit bir yöntemdir. Kütleçekimsel kütleyi, prensipte geleneksel kütle birimi cinsinden yazabiliriz ancak bu pratikte oldukça zor bir iştir. Newton’un kuramına göre, bütün objelerin bir kütleçekim alanı vardır. Kuramda bu objeyi oluşturmak için sonsuz küçük parçayı birleştirmek mümkündür. Fakat olaya pratiksel bir bakış açısıyla baktığımızda, küçük nesnelerin zayıf olan çekim alanlarını ölçmek son derece zordur. 1680’lerde Newton’un Evrensel Kütleçekim kitapları yayınlandı. Dünyanın kütlesini, geleneksel kütle birimi cinsinden ölçen ilk başarılı ölçüm Cavendish deneyi ile yaklaşık yüz yıl sonra, 1797'de, gerçekleştirildi. Cavendish Dünya'nın yoğunluğunu, suyun yoğunluğunun 5.448 ± 0.033 katı olduğunu ortaya çıkardı. 2009 yılında Dünya’nın kütlesini kilogram cinsinden sadece 5 haneli sayılarda olduğu bilinirken, kütleçekimsel kütlesi 9 haneli sayılarda biliniyordu. Bu kütleçekim kütlesi ile hesap yapılınabilen uyduların hareketi ile elde edilebilecek bir sonuçtur.
+
+
+Cavendish burkulum deneyinin (Cavendish torsion balance) bulunduğu yapıyla birlikte diklemesine çizimi. Büyük toplar dışarıdan makarayla çevrilebilecek şekilde asılmışlardır, bu büyük topların yanında onlarla kütleçekimsel ekilde etkileşen ve ölçümde kullanılan küçük toplar durmaktadır. Cavendish'in makelesindeki 1. çizim.
+Newton’a göre kütleçekimsel kütle kavramı, Newton’un kütleçekim yasasına dayanmaktadır. A ve B’yi iki cisim, aralarındaki uzaklığı RAB, cisimlerin kütlesini MA ve MB olarak varsayalım. G’yi evrensel kütleçekim sabiti olarak düşünürsek, bu iki cisim arasındaki kütleçekim kuvveti:
+
+{\displaystyle {\boldsymbol {F_{AB}}}=-G{\frac {M_{A}M_{B}}{|{\boldsymbol {R_{AB}}}|^{2}}}{\widehat {\boldsymbol {R_{AB}}}}} {\displaystyle {\boldsymbol {F_{AB}}}=-G{\frac {M_{A}M_{B}}{|{\boldsymbol {R_{AB}}}|^{2}}}{\widehat {\boldsymbol {R_{AB}}}}},
+şeklinde elde edilir ve {\displaystyle {\widehat {\boldsymbol {R_{AB}}}}} {\displaystyle {\widehat {\boldsymbol {R_{AB}}}}} iki cisim arasındaki birim yöneye (vektöre) karşılık gelmektedir.
+
+Kütleçekim kuvvetini, kütleçekim ivmesini biliyorsak : {\displaystyle {\boldsymbol {F}}=M_{A}{\boldsymbol {g}}\!} {\displaystyle {\boldsymbol {F}}=M_{A}{\boldsymbol {g}}\!} formülünü kullanarak da hesaplayabiliriz. Burada {\displaystyle {\boldsymbol {g}}} {\displaystyle {\boldsymbol {g}}} diğer denklemden {\displaystyle -G{\frac {M_{B}}{|{\boldsymbol {R_{AB}}}|^{2}}}{\widehat {\boldsymbol {R_{AB}}}}} {\displaystyle -G{\frac {M_{B}}{|{\boldsymbol {R_{AB}}}|^{2}}}{\widehat {\boldsymbol {R_{AB}}}}} şeklinde elde edilebilir. Bu kütlelerin tartılmasında kullanılan temel prensiptir. Örneğin yaylı basit tartılarda, F kuvveti, Hooke yasasına göre, tartma kabının yayının esnemesi ile doğru orantılıdır ve tartılar kütleçekim ivmesi göz önünde bulundurularak M kütleli bir cismin kütlesinin okunmasına izin verecek şekilde ayarlanabilir.
+
+Eylemsizlik Kütlesi
+
+Isaac Newton 1689
+Eylemsizlik kütlesi, bir nesnenin ivmelenmeye karşı direnci ile ölçülen kütlesidir. Klasik mekanikteki tanımıyla, özel görelilikteki tanımı birbirinden farklı olsa da temel anlam aynıdır. Klasik mekanikte Newton’un ikinci yasasına göre, herhangi bir zamanda, m kütlelei bir cisme, F şeklinde bir kuvvet uygulanırsa, cisim a ivmesi ile ivmelenir
+
+{\displaystyle {\boldsymbol {F}}=m{\boldsymbol {a}},} {\displaystyle {\boldsymbol {F}}=m{\boldsymbol {a}},}.
+Bu denklem kütle, ivme ve kuvvet arasındaki ilişkiyi vere denklemdir.
+
+Şimdi bu denklemdeki “cisme uygulanan kuvvet”’in ne demek olduğuna bakalım. Bu denklem kütlenin eylemsizlikle nasıl ilişkili olduğunu göstermektedir. Eğer farklı kütlelere sahip iki cisim düşünürsek ve ikisine de özdeş kuvvet uygularsak, büyük kütleli cisim, küçük kütleli cisimden daha az ivmelenecektir. Bunun sonucunda, büyük kütleli cisimlerin yer değiştirmeye karşı daha dirençli olduğunu söyleyebiliriz.
+
+Farklı cisimlere uygulanan özdeş kuvvet konusuna dönersek aslında kuvvetin tanımının hala tam olarak yapılmadığı konusuyla yüzleşmeliyizdir. Bu tanımlamanın zorluğundan Newton’un üçüncü yasasının yardımı ile kaçabiliriz. Newton’un üçüncü yasası, eğer bir obje başka bir objeye bir kuvvet uyguluyorsa, ikinci objenin de birinci objeye eşit bir kuvvet uygulayacağını söyler. Eylemsizlik kütleleri m1 ve m2 olan iki obje düşünelim, bu iki objenin diğer fiziksel etkilerden etkilenmediğini varsayarsak, sadece m1’in m2’ye uyguladığı F12 ve m2’nin m1’e uyguladığı F21 kuvveti vardır. Newton’un ikinci yasasına göre bu kuvvetler;
+
+{\displaystyle {\begin{aligned}{\boldsymbol {F_{12}}}&=m_{1}{\boldsymbol {a_{1}}},\\{\boldsymbol {F_{21}}}&=m_{2}{\boldsymbol {a_{2}}},\end{aligned}}} {\displaystyle {\begin{aligned}{\boldsymbol {F_{12}}}&=m_{1}{\boldsymbol {a_{1}}},\\{\boldsymbol {F_{21}}}&=m_{2}{\boldsymbol {a_{2}}},\end{aligned}}}
+şeklindedir. a1 ve a2’nin cisimlerin ivmeleri olduğunu ve sıfırdan farklı olduğunu varsayarsak. Bu iki objenin birbirine uyguladığı kuvvetler sıfırdan farklıdır. Newton’un üçüncü yasasını incelersek
+
+{\displaystyle {\boldsymbol {F_{12}}}=-{\boldsymbol {F_{21}}};} {\displaystyle {\boldsymbol {F_{12}}}=-{\boldsymbol {F_{21}}};}
+şeklindedir. Yani
+
+{\displaystyle m_{1}={\frac {m_{2}|{\boldsymbol {a_{2}}}|}{|{\boldsymbol {a_{1}}}|}}\!.} {\displaystyle m_{1}={\frac {m_{2}|{\boldsymbol {a_{2}}}|}{|{\boldsymbol {a_{1}}}|}}\!.}
+Eğer |a1| sıfırdan farklıysa ve m1 kütlesinin değerini biliyorsak m2’yi ölçebiliriz. Ayrıca, bir nesnenin momentumu(p) o nesnenin hız vektörü ve kütlesi ile ilişkilidir:
+
+{\displaystyle {\boldsymbol {p}}=m{\boldsymbol {v}}} {\displaystyle {\boldsymbol {p}}=m{\boldsymbol {v}}},
+Ve nesnenin kinetik enerjisi(K):
+
+{\displaystyle K={\frac {1}{2}}m|{\boldsymbol {v}}|^{2}} {\displaystyle K={\frac {1}{2}}m|{\boldsymbol {v}}|^{2}}.
+şeklindedir.
+
+Atomik Kütle
+
+John Dalton'un çeşitli atomları ve elementleri tasvir ettiği tablosu A New System of Chemical Philosophy (1808).
+Atom(ἄτομος) ismi antik yunandan gelmektedir ve anlamı bölünemezdir. Herhangi bir nesneyi sonsuza dek bölmeye kalkıştığımızda bölünemez bir noktaya ulaşmamız gerektiği düşüncesiyle meşhur Antik Yunan Filozofu Demokritos tarafından ortaya atılmış bir kavramdı. Bu kökenine rağmen maddenin parçalanamaz birimlerden oluştuğu iddiası çok soyut kaldı ve üzerine çalışılabilecek imkanlara sahip olunamadığından uzun bir süre düşünsel bir çıkarım olarak kaldı ve bu durum 18. yüzyılda kimyacıların katlı oranlar yasasını bulmasıyla değişti. Kimyacılar iki ya da daha fazla elementin, bir bileşik oluşturmak için bir araya gelmesinin, her zaman sabit bir oran içinde olacağını fark ettiler. Bunu açıklamak için John Dalton, maddenin küçük atomlardan yapılmış olduğunu öne sürdü. 1805 yılında göreceli atom ağırlıkları ile yaptığı ilk tabloda 6 element vardı: hidrojen, oksijen, nitrojen, karbon, sülfür ve fosfor; Hidrojenin 1 atom ağırlığında olduğunu tahsis etti. 1815’te kimyacı William Prout, diğer bütün atomların hidrojen atomundan türediğini düşünüyordu. Prout’un hipotezinde küçük yanlışlar vardı. Elementlerin kütleleri hidrojenin kütlesinin yakın katlarıydı (yaklaşık %1 oranında sapma vardı). Fakat bu farklılıklar göz ardı edilemezdi. Hidrojenin hafif izotopu, örneğin tek bir proton ile 1,007825 u kütleye sahiptir. Demirin en bol izotopu 26 protona ve 30 nötrona sahiptir. Yani atom kütlesi hidrojenin kütlesinin 56 katı olması belenebilir, ama aslında atom kütlesi sadece 55,93383 u’dur. Bu çekirdekte meyadana gelen etkileşimlerle ilgili bir durumdur ve bağlanma enerjisinin proton ve nötron kütlelerinden çıkarılması gerektiği ile ilgili deneysel bir veriden yola çıkılarak yapılan bir hesaptır. Eksikliklerine rağmen, Prout teorisinin kavramları, atomik kütle ölçümleri için kullanılmaya devam etmektedir.

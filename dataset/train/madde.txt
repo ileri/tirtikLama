@@ -1,0 +1,91 @@
+Madde ya da özdek, uzayda yer kaplayan (hacim), kütlesi olan tanecikli yapılara denir. 5 duyu organımızla algılayabildiğimiz (hissedebildiğimiz) canlı ve cansız varlıklara denir.[1]
+
+Maddenin en küçük yapı birimi atomlardır. Atomlar birleşerek maddeleri meydana getirir. Örneğin: İki hidrojen atomu ile bir oksijen atomu birleşerek suyu meydana getirirler.
+
+Atom elektron nötron ve protondan oluşmuştur.
+
+Elektron maddenin en küçük parçacığıdır ve enerjiden oluşur. Nükleer fizik ve nükleer kimyada nötrino adı ile anılan bu enerji hakkında halen pek az şey bilinmektedir.
+
+Madde Kendi çapında:
+
+Fiziksel olay: Bir madde üzerinde meydana geldiği zaman, o maddenin hüviyetini, yapısını değiştirmeyen olaydır. Mesela kağıdın yırtılması, fiziki bir olaydır. Çünkü kağıdın şekli değişmiş fakat özü yine kâğıttır.
+Kimyasal olay: Bir madde üzerinde meydana geldiği vakit, o maddenin hüviyet ve yapısını değiştiren olaydır. Mesela kağıdın yanması gibi.
+Atomların çekirdeklerinde değişmeler, parçalanmalar olduğu, radyoaktif denilen elementlerden anlaşılmaktadır. Atomların ortasında bulunan çekirdeklerin bu parçalanmasında, bir elementin başka bir elemente dönüştüğü anlaşılmıştır. Ayrıca, Albert Einstein'in izafiyet kuramına göre madde ve enerji birbirine eşdeğerdir. Bu sebeple madde enerjiye, enerji de maddeye dönüştürülebilir. Mesela bir uranyum çekirdeğinin veya başka bir ağır atom çekirdeğinin ikiye ayrılmasıyla meydana gelen çekirdek bölünmesinde madde enerjiye dönüşür. Bileşik cisimlerde olduğu gibi, elementler de hep değişmekte, bir halden başka hale dönmektedir.
+
+
+İçindekiler
+1	Maddenin ortak özellikleri
+2	Madde türleri
+3	Maddenin hâlleri
+4	Maddenin ayırt edici özellikleri
+5	Kaynakça
+Maddenin ortak özellikleri
+Kütle
+Hacim
+Atom ve moleküller
+Ağırlık
+Eylemsizlik
+Elektirikli yapı
+tanecikli yapı
+Madde türleri
+Baryonik Madde
+Ters Madde
+Karanlık Madde
+Maddenin hâlleri
+Ana madde: Maddenin halleri
+Maddenin hâli bir maddenin faz durmunu tanımlar. Şu anda 16 tane madde hâli tanımlanır. Maddenin dört klasik hâli:
+
+Katı
+Sıvı
+Gaz
+Plazma olarak kabul edilir.
+Maddenin hallerinin evrende bulunuş yüzdeleri %99 plazma, %0.6 gaz, %0.3 sıvı, %0.1 katı şeklindedir.
+
+Maddenin ayırt edici özellikleri
+Katı
+Sıvı
+Gaz
+Özkütle	
++
++
++
+Özhacim	
++
++
++
+Çözünürlük	
++
++
++
+Özısı	
++
++
++
+Genleşme Katsayısı	
++
++
+-
+Esneklik katsayısı	
++
+-
+-
+Kaynama noktası	
+-
++
+-
+Erime noktası	
++
+-
+-
+Yoğunlaşma noktası	
+-
+-
++
+Erime ısısı	
++
+-
+-
+Buharlaşma noktası	
+-
++
+-

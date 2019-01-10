@@ -1,0 +1,61 @@
+Fiziksel cisim veya fiziksel nesne, 3 boyutlu uzayda dönme veya çevirme hareketiyle hareket etmek için daha fazla veya az sıkıştırılmış maddenin toplamı.
+
+En yaygın kullanımında, sınırlar maddenin özellikleriyle mutlaka tanımlanmalı ve belirtilmelidir. Zaman içersinde bu sınırlar değişebilir. Sınır genellikle nesnenin görülebilir veya somut yüzeyindedir. Nesnedeki madde nesne olarak hareket edebilmek için çok ya da az sıkıştırılmıştır. Sınır, bağlı olmayan diğer nesnelere göre hareket edebilir. Çeşitli yollarla nesnenin sınırları zaman içerisinde deformasyona uğrayıp değişebilir.
+
+Diğer bir yaygın kullanımı, aynı madde karışımı olarak sıkıştırılmamıştır. Bir nesnenin parçaları veya atomları zaman içersinde değişikliğe uğrayabilir. Bir nesnegözlemlerle bağlantılı sınırların en basit gösterimiyle tanımlanır. Fakat, fiziğin kanunları sadece aynı maddenin toplamını içeren nesneye uygulanır.
+
+Her nesne diğer özelliklerden bağımsız eşsiz bir kimliğe sahiptir. İki nesne pozisyonları dışında bütün özellikleri açısından aynı olabilir, ama hala ayırt edilebilirler. Çoğu durumda, iki nesnenin sınırları herhangi bir noktada kesişmeyebilir. Kimlik özelliği nesnelerin sayılabilir olmalarını sağlar.
+
+Fiziksel cisim modellerinin örnekleri etkileşimde olan birkaç küçük cismi ve sürekli olan ortamları içerir.
+
+Fiziksel cisimlerin yaygın konsepti, bunun için mücadele eden kuantum fiziği ve kozmoloji teorilerinin bulunmasına rağmen fizikesl dünyadaki genişletmeye sahip olanları içerir. Modern fizikte, “genişletme” uzay zamanı cinsinden anlaşılmalıdır. Daha basit bir deyişle, cismin belli bir zamandaki uzayda bulunduğu konum anlamına gelmektedir. Bir fiziksel cismin bütünüyle kütle, momentum, elektrik yükü, ve diğer korunan nicelikler gibi nicel özelliklere sahip olduğu varsayılır.
+
+Bilinen bir bileşimle ve yeterli fiziksel teoriyle tanımlanan bir cisim fiziksel sistemin bir örneğidir.
+
+
+İçindekiler
+1	Genel Kullanımı
+2	Klasik Mekanik
+3	Kuantum Mekaniği
+4	Sicim Teorisi
+5	Psikolojide
+6	Feslefede
+7	Yeni Dönem Felsefesi, Tasavvufu ve Dininde
+Genel Kullanımı
+Bir cisim duyularla bilinir. Bir cismin özellikleri algılanan bilgilere göre öğrenilerek ve sonuç çıkartılarak belirlenir. Özetle, bir cisim Occam'ın Usturası teorisini kullanan duyularımız tarafından elde edilen bilgilerle bağlantılı olarak zihnimizde oluşturduğumuz bir yapıdır.
+
+Bir cismin genel kullanımı 3 boyutlu uzayda sınırları içerisinde bulunan maddedir. Bir cismin sınırı, cismin içinde ve dışında ne olduğuna karar vermek için kullanılabilen komşu yüzeydir. Ölçüsü maddenin özelliklerine göre tanımlanarak belirlenen bir cisim, o maddenin tek bir parçasıdır. Granitin hayali küresi, yaygın kullanımda tanımlanabilen bir nesne olarak dikkate alınamaz. Kayanın içinde bulunan fosilleşmiş bir kafatası bir nesne olarak görülebilir çünkü maddenin özelliklerine göre ölçüleri belirlemek mümkündür.
+
+Rijit cisim için, sınırları sürekli çevirme ve dönmeden dolayı zaman içerisinde değişikliğe uğrayabilir. Deformasyona uğramış bir cisim için, sınırları diğer yollarla sürekli olarak değişir.
+
+Cisimler bir kimliğe sahiptir. Genellikle, konumları dışında özdeş özellikleri olan, belli bir zamanda iki cisim olarak ayırt edilebilen iki nesne, aynı zamanda aynı alanı işgal edemezler. Nesnelerin kimlikleri zaman içerisindeki sürekli değişiklikler kullanılarak bulunabilir. Bu kimlikler nesnelere sayılabilmeleri özelliklerini kazandırır.
+
+Bir nesnenin maddesi zaman içersinde değişebilir. Örneğin, bir kaya bazı parçalarını kaybedebilir. Bir nesne, maddenin eklendikten veya çıkarıldıktan sonra da aynı nesne olarak tanımlanır. Maddenin eklenmesi veya çıkarılması nesnenin sınırlarını belli zaman aralıklarıyla değiştirebilir.
+
+Klasik Mekanik
+Klasik mekanikte fiziksel bir cisim kütle, hız, momentum, ve eneji gibi özellikleri içeren maddelerin toplamıdır. 3 boyutlu uzayda bir maddenin kapladığı hacim o maddenin ölçüsünü gösterir.
+
+Newton yasalrına uygun yerçekimi altında, nesnenin en uzaktaki ölçüsünden uzakta olan yerçekimi alanı sadece kütle ve kütle merkezinin konumuyla belirlenir.
+
+İki cisim arasındaki kesişimler, yönelme ve dış biçimlerle kısmi olarak tanımlanır.
+
+Sürekli ortamlar mekaniğinde, bir nesne, birbirleriyle basınç ve mekanik gerilme ile tanımlanan kuvvetlerle etkileşim içerisinde olan alt nesnelerin toplamı olarak tanımlanır.
+
+Kuantum Mekaniği
+Kuantum mekaniğinde, bir nesne veya cisim bir parçacık veya parçacıkların toplamıdır. Ölçülene kadar, parçacığın fiziksel bir konumu yoktur. Bir parçacık belli bir konumda bulunan parçacığın muhtemel dağılımı ile tanımlanır. Burada belirsizlik ilkesi vardır. Bir parçacık veya parçacıkların yoplamı kuantum sistemi ile tanımlanır.
+
+Bu düşünceler nesnenin ne olduğunu anlayan genel kullanımdan farklıdır. Kuantum mekaniğinde bazı parçacıklar aynı zamanda aynı yerde bulunabilmelerine rağmen, nesne/parçacık kimliği genel kullanım ve kuantum mekaniği arasında paylaşılır.
+
+Sicim Teorisi
+Parçacık fiziğinde, temel parçacıkların cisim olup olmadığı, fakat fiziksel uzayda genişlemeden nokta oldukları, veya sicim teorisinde veya M teorisinde en az bir boyutlu uzayda her zaman genişleyip genişlemedikleri konusunda bir tartışma söz konusu.
+
+Psikolojide
+Psikolojinin aynı düşünceyi paylaşmaya bağlı bazı dallarında, fiziksel cisim, ruhsal nesnelerle kıyaslandığında, fiziksel özelliklerle fizksel bir nesnedir. Davranışçılıkta, fiziksel cisim ve onun özellikleri (sadece) çalışmanın anlamlı nesneleridir. Modern davranışsal psikoterapide, bu amaç odaklı davranış değişiklikleri anlamına gelir. Cisim odaklı psikoterapide, kendi hissedilen duyuları kendi amacıdır. Bilişsel psikolojide, fiziksel cisimler biyolojide oldukları gibi düzşünceyi anlamak için çalışılır.
+
+Feslefede
+Fiziksel cisim uzaydaki belli yörünge boyunca bulunan ve belli zaman zarfında yönlendirilen, ve fiziksel uazyda genişleyerek var olan nesnedir. Bu matematiksel nesneler gibi belli bir yerde ve zamanda bulunmayan soyut nesnelerle çelişir. Örnekler: bulut, insan vücudu, ağırlık, bilardo topu, masa veya proton. Bu, ruhsal dünyada bulunan, ve matematiksel nesneler olan mental nesneler gibi soyut olan nesnelerle zıtlık oluşturur. Diğer örnekler fiziksel cisimler olmayan adalet, nefret duygusu olan duygular veya 3 sayısıdır. George Berkeley'in idealizmi gibi bazı felsefelerde, fiziksel cisim mental nesnedir, fakat hala görünen alanın uzayında genişler.
+
+Yeni Dönem Felsefesi, Tasavvufu ve Dininde
+Teozofi gibi tasavvufun bazı sistemlerinde, fiziksel cisim “farkındalığını araçları” olarak anlaşılır. Blavatsky'nin teozofisinde, Vedantik isim olan “sthula sarira”, bütün cisim, adlandırılır ve “linga sarira”, ince cisim, veya astral cisimlerden ayırt edilebilir. C. W. Leadbeater ve Alice Bailey'e göre, fiziksel cisim eterik cisimden ayırt edilir, ve çakralar gibi eterik cisimlerin yapıları fizksel cisimin beze ve gangliyon hücrelerini yansıtır.
+
+Bazı dinlerde, ve bazı yeni dönem felsefelerinde, fiziksel cisim öz, akıl, maneviyat, ruh, veya astral seyahatle, ve bazen de astronomik cisimlerle çelişir. Bu, sonsuz değil fanidir. Bu ruhun veya maneviyatın barındırdığı şey olabilir. Fiziksel cisim ne cennette, ne astral dünyada ne de “esîr”de bulunur. Sadece dünyada bulunur.

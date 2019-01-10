@@ -1,0 +1,17 @@
+Hesap makinesi, ilk zamanlar dört işlemi yapabilen, daha sonraları geliştirilerek her türlü sayısal işlemi yapar duruma getirilen elektronik ve mekanik bir araçtır.
+
+İlk hesap makineleri abaküsler idi. 1623 yılında Wilhelm Schickard ilk kez dört işlemi bir arada yapabilen hesap makinesini Almanya’daki Heidelberg Üniversitesinde geliştirdi. Schickard geliştirmiş olduğu araç ile astronomi, matematik, alan ölçümleri, yüz ölçümü hesaplama ve haritacılık işlemlerinde kullanmıştır. Geliştirmiş olduğu cihaz oldukça karmaşık ve herkesin kolaylıkla kullanamayacağı bir çalışma sistemine sahipti.
+
+Yaklaşık yirmi yıl kadar sonra, 1645 yılında Fransız filozof Blaise Pascal, vergi tahsildarı olan babasına yardımcı olmak için bir hesap makinesi tasarladı. 1799 yılına kadar kullanılan bu mekanik aygıt, kadranlarla girilen sayıları toplayıp çıkarıyordu. Gottfried Wilhelm Leibniz 1671 yılında toplama ve dört işlemi yapabilen mekanik bir aygıt geliştirdi. Ancak bu aygıtlar, çok yaygın olarak kullanılmamıştır. Bunlardan yaklaşık bir asır kadar sonra Charles Xavier Thomas’ın bulduğu dört işlemi ve karekök alma işlemini yapabilen Aritmometre, 1970’lere kadar kullanılmış olan mekanik hesap makinelerinin atası olmuştur.
+
+Daha sonra üretilen bu hesap makineleri, ara sonuçları toplayan, eski sonuçların saklanıp gerektiğinde kullanılabilmesini sağlayan, trigonometrik, istatistiksel ve ileri matematik işlevleri içeren ve yazılımlanabilme özellikleri ile daha çok bilgisayarlara benzeyen çok karmaşık elektronik cihazlar hale gelmiştir.
+
+Hesap makinesi türleri
+Yıldız Sineması'na ait hesap makinesi.JPG
+Şeritli hesap makinesi : Genelde muhasebe alanında kullanılan, denetimi sağlamak için kağıda baskı yapabilen hesap makinesi
+
+Cep hesap makinesi : Dört ana işlemle beraber en az aritmetik işlevleri gerçekleştirebilen en basit ve küçük boyutlu hesap makinesi
+Yazılımlanabilir hesap makinesi: Karışık hesapların tek tuşa yazılımlanarak işlemlerin hızla yapılabildiği hesap makinesi(bilimsel hesap makinesi olarak da bilinir.)
+Veri girme şekilleri
+Standard işlem : İşlem sırasına göre rakam ve matematik işaretlerinin makineye aktarımı ( ' 2 + 2 = ': sonuç 4 )
+RPN işlem : Önce rakamların sonra matematik işlemin makineye aktarımı ( ' 2 ent 2 + ': sonuç 4 )
