@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -36,6 +37,24 @@ final class TrainModel{
     public int[] getModelSize(){
         int[] sizes = {data.size(), data.get(0).values.length};
         return sizes;
+    }
+    
+    public double[][] getDataArray(){
+        double[][] array = new double[data.size()][];
+        Iterator<SingleTrainData> iterator = data.iterator();
+        int i = 0;
+        while(iterator.hasNext()){
+            array[i++] = iterator.next().values;
+        }
+        
+        double[][] t = new double[array[0].length][array.length];
+        for(i = 0; i < t.length; i++){
+            for(int j = 0; j < t[0].length; j++){
+                t[i][j] = array[j][i];
+            }
+        }
+        System.out.println("OK");
+        return t;
     }
 }
 

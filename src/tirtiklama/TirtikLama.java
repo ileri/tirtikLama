@@ -45,8 +45,8 @@ public class TirtikLama {
             knn.classify((String)t.getKey(), getWordValues(t)).print();
             System.out.println("");
         }
-
     }
+
     
     private static double[] getWordValues(Object o){
         Map.Entry t = (Map.Entry)o;

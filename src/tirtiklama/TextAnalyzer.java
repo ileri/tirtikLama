@@ -56,7 +56,7 @@ public class TextAnalyzer {
     private boolean isTooShort(String w){return w.length() < 2;}
     
     // Is this word consist of alphabetic characters? 
-    private boolean isNonWord(String w){return !Pattern.matches("[a-zA-Z]+",w);}
+    private boolean isNonWord(String w){return !Pattern.matches("[a-zA-ZİÖÜŞÇĞıöüşçğ]+",w);}
     
     // Sometimes returning UNK, is this one of them?
     private boolean isUNK(String w){return w == "UNK";}
