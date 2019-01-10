@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class TirtikLama {
     
-    static int K = 3;
+    static int K = 5;
     
     static FeatureExtraction fe = new FeatureExtraction();
     static ARFF arff = new ARFF(fe);
