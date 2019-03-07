@@ -25,7 +25,17 @@ sözcüğünün, sevdiğimiz bir hayvan olan **Lama** ya da ithafta
 bulunması için **L** harfi büyütülerek **tırtıkLama** olarak
 belirlenmiştir.
 
-*Devamı gelecek...*
+## Kodlar Hakkında
+
+Bu proje, Makine Öğrenimi dersi final projesi kapsamında geliştirilmiştir.
+Bu nedenle kısıtlı süre içerisinde yazılan ve iyileştirilme yapılmasına
+fırsat kalmadan teslim edilen proje, teslim edildiği hali ile
+yayınlanmaktadır.
+
+Kodlarda tespit edilebilecek olası bir hata/yanlış/eksiklik/standart
+dışılık gayet normal olup, kodun teslim edilmiş halinin
+orijinalliğini bozmamak için en azından bir dalda (branch)
+aynen korunmaya devam edilecektir.
 
 [1]: http://www.tdk.gov.tr/index.php?option=com_gts&arama=gts&kelime=t%C4%B1rt%C4%B1k
 
